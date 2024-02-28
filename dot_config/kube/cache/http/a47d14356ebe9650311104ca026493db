@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 865
+Audit-Id: 569081f2-6245-404b-8565-0b8c79524ed6
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Nov 2021 15:44:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 780cb9f5-9726-4a32-8ea7-73b01c23943d
+X-Kubernetes-Pf-Prioritylevel-Uid: 38ad9431-c2da-49c2-af97-503addc07a3c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"networking.gke.io/v1beta1","resources":[{"name":"frontendconfigs","singularName":"frontendconfig","namespaced":true,"kind":"FrontendConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"VvPxTD2ZFfI="},{"name":"managedcertificates","singularName":"managedcertificate","namespaced":true,"kind":"ManagedCertificate","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["mcrt"],"storageVersionHash":"FD3rYAFSqMY="},{"name":"servicenetworkendpointgroups","singularName":"servicenetworkendpointgroup","namespaced":true,"kind":"ServiceNetworkEndpointGroup","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["svcneg"],"storageVersionHash":"jrELN7g4fSY="}]}

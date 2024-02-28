@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 428
+Audit-Id: d5724988-9cc2-43a3-b2a3-e0286acc2b01
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 25 Jun 2021 15:56:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apiregistration.k8s.io/v1beta1","resources":[{"name":"apiservices","singularName":"","namespaced":false,"kind":"APIService","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"storageVersionHash":"C+s2HXXP47k="},{"name":"apiservices/status","singularName":"","namespaced":false,"kind":"APIService","verbs":["get","patch","update"]}]}

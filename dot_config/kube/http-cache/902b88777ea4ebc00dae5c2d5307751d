@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 509
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: 1cf6b851-14b1-4010-a5b9-946ec647249c
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"autoscaling/v2beta1","resources":[{"name":"horizontalpodautoscalers","singularName":"","namespaced":true,"kind":"HorizontalPodAutoscaler","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["hpa"],"categories":["all"],"storageVersionHash":"oQlkt7f5j/A="},{"name":"horizontalpodautoscalers/status","singularName":"","namespaced":true,"kind":"HorizontalPodAutoscaler","verbs":["get","patch","update"]}]}

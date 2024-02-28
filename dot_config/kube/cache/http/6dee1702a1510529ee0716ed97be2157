@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 596
+Access-Control-Allow-Origin: *
+Audit-Id: 16ca7db9-80d7-4444-a351-e96e807325a0
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 21 Jun 2021 15:30:24 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"authorization.k8s.io/v1beta1","resources":[{"name":"localsubjectaccessreviews","singularName":"","namespaced":true,"kind":"LocalSubjectAccessReview","verbs":["create"]},{"name":"selfsubjectaccessreviews","singularName":"","namespaced":false,"kind":"SelfSubjectAccessReview","verbs":["create"]},{"name":"selfsubjectrulesreviews","singularName":"","namespaced":false,"kind":"SelfSubjectRulesReview","verbs":["create"]},{"name":"subjectaccessreviews","singularName":"","namespaced":false,"kind":"SubjectAccessReview","verbs":["create"]}]}

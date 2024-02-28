@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 1082
+Audit-Id: 8ddd53b2-a690-4f10-8e03-65b2d79a356d
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 25 Jun 2021 15:56:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"snapshot.storage.k8s.io/v1beta1","resources":[{"name":"volumesnapshots","singularName":"volumesnapshot","namespaced":true,"kind":"VolumeSnapshot","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"TSKmYoNn2SQ="},{"name":"volumesnapshots/status","singularName":"","namespaced":true,"kind":"VolumeSnapshot","verbs":["get","patch","update"]},{"name":"volumesnapshotclasses","singularName":"volumesnapshotclass","namespaced":false,"kind":"VolumeSnapshotClass","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"Auz1oPjhi6Y="},{"name":"volumesnapshotcontents","singularName":"volumesnapshotcontent","namespaced":false,"kind":"VolumeSnapshotContent","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"nRPzLkINbss="},{"name":"volumesnapshotcontents/status","singularName":"","namespaced":false,"kind":"VolumeSnapshotContent","verbs":["get","patch","update"]}]}

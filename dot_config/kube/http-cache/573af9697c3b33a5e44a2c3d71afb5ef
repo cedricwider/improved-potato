@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 580
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: e8da3c14-8386-4d1a-b5d1-49c0a785708a
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"networking.gke.io/v1beta1","resources":[{"name":"frontendconfigs","singularName":"frontendconfig","namespaced":true,"kind":"FrontendConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"VvPxTD2ZFfI="},{"name":"managedcertificates","singularName":"managedcertificate","namespaced":true,"kind":"ManagedCertificate","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["mcrt"],"storageVersionHash":"FD3rYAFSqMY="}]}

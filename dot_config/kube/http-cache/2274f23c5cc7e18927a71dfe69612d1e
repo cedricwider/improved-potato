@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 302
+Access-Control-Allow-Origin: http://localhost:33691
+Audit-Id: 2bb38037-40a8-4199-9721-dc1729c247cc
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 18 Nov 2020 15:03:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"node.k8s.io/v1beta1","resources":[{"name":"runtimeclasses","singularName":"","namespaced":false,"kind":"RuntimeClass","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"storageVersionHash":"8nMHWqj34s0="}]}

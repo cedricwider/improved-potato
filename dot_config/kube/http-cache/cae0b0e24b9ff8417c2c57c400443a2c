@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 455
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: 2890c696-fda8-4490-b91a-d6be7ed0cb59
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"kibana.k8s.elastic.co/v1","resources":[{"name":"kibanas","singularName":"kibana","namespaced":true,"kind":"Kibana","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["kb"],"categories":["elastic"],"storageVersionHash":"YjmZ9E/29YU="},{"name":"kibanas/status","singularName":"","namespaced":true,"kind":"Kibana","verbs":["get","patch","update"]}]}

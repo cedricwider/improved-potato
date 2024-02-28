@@ -1,0 +1,15 @@
+fishpkg/fish-pwd-info
+fishpkg/fish-pwd-is-home
+fishpkg/fish-last-job-id
+fishpkg/fish-git-util
+fishpkg/fish-host-info
+fishpkg/awesome-fish
+fishpkg/fish-prompt-mono
+fishpkg/fish-prompt-metro
+fishpkg/fish-humanize-duration
+rafaelrinaldi/pure
+jorgebucaran/fisher
+PatrickF1/fzf.fish
+matchai/spacefish
+evanlucas/fish-kubectl-completions
+mordax7/fish-fzf-todoist

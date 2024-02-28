@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 834
+Audit-Id: 0ec516da-f34e-41c1-940f-0c6a518be3d7
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:52:47 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"acme.cert-manager.io/v1alpha3","resources":[{"name":"orders","singularName":"order","namespaced":true,"kind":"Order","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["cert-manager","cert-manager-acme"],"storageVersionHash":"FQscJvYs/a4="},{"name":"orders/status","singularName":"","namespaced":true,"kind":"Order","verbs":["get","patch","update"]},{"name":"challenges","singularName":"challenge","namespaced":true,"kind":"Challenge","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["cert-manager","cert-manager-acme"],"storageVersionHash":"T6RvmdSxRBY="},{"name":"challenges/status","singularName":"","namespaced":true,"kind":"Challenge","verbs":["get","patch","update"]}]}

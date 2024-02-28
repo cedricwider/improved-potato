@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 369
+Audit-Id: 63083817-604e-4403-8cbe-22a8b9520d1f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:54 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"database.arangodb.com/v1alpha","resources":[{"name":"arangodeployments","singularName":"arangodeployment","namespaced":true,"kind":"ArangoDeployment","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangodb","arango"],"storageVersionHash":"0BHa0j24GqE="}]}

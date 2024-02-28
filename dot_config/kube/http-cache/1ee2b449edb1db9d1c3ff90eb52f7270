@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 407
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: 11b31613-4360-43bd-a318-331d4e5e3e63
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","groupVersion":"extensions/v1beta1","resources":[{"name":"ingresses","singularName":"","namespaced":true,"kind":"Ingress","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["ing"],"storageVersionHash":"ZOAfGflaKd0="},{"name":"ingresses/status","singularName":"","namespaced":true,"kind":"Ingress","verbs":["get","patch","update"]}]}

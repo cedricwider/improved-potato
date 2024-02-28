@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 402
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: 40ce85e0-7191-4e53-8147-b2264b34c0a9
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"replication.database.arangodb.com/v1","resources":[{"name":"arangodeploymentreplications","singularName":"arangodeploymentreplication","namespaced":true,"kind":"ArangoDeploymentReplication","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangorepl"],"storageVersionHash":"R0HKdv4tKQo="}]}

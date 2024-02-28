@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 340
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: 2606e9fa-2053-48a9-a6cd-1014847bd2cb
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"cloud.google.com/v1beta1","resources":[{"name":"backendconfigs","singularName":"backendconfig","namespaced":true,"kind":"BackendConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["bc"],"storageVersionHash":"iT6Z2sUMGkM="}]}

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 341
+Access-Control-Allow-Origin: http://localhost:33691
+Audit-Id: 632bf4a9-a5e8-4878-aef6-d101355e87cd
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 18 Nov 2020 15:03:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"nodemanagement.gke.io/v1alpha1","resources":[{"name":"updateinfos","singularName":"updateinfo","namespaced":true,"kind":"UpdateInfo","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["updinf"],"storageVersionHash":"QtwKBHoi/B8="}]}

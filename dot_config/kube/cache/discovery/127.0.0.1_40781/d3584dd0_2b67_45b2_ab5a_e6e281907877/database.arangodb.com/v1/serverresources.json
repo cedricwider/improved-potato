@@ -1,0 +1,1 @@
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"database.arangodb.com/v1","resources":[{"name":"arangodeployments","singularName":"arangodeployment","namespaced":true,"kind":"ArangoDeployment","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangodb","arango"],"storageVersionHash":"0BHa0j24GqE="}]}

@@ -1,0 +1,137 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRTU5jWGNaK2xBVmp2b3d1QStINXlsekFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlSa09XWTBaR1F5T1Mwek1ERmlMVFF4TWpjdFlUQXhaQzFsWldSa05XTmtaVFJqWldVdwpIaGNOTVRrd09UQTVNVEF4TVRJMldoY05NalF3T1RBM01URXhNVEkyV2pBdk1TMHdLd1lEVlFRREV5UmtPV1kwClpHUXlPUzB6TURGaUxUUXhNamN0WVRBeFpDMWxaV1JrTldOa1pUUmpaV1V3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUNvWjRETGJQeG1JRE5FRXEwQ2owcDVFc0s4TmJwZzVqQXNQYUpoNFg2MQp1TXZuZGhUZks4UVpBS1RmZ2hwem5Wa2tUZTN5WFlVcXZpZnJld1JBSnA4ODBBdXpmS1VhbUQ2eWV0d28rODlzCm43VjRNaENqSmkvRDhxanRsTG0ydDRGTHRnTDZIMVdJeXhLMUdGNXE3R2I3U01Hd0Z1YWNwQ252SWVaUjdiZmcKODZ3WDRISnpJWUs4SXhHZkJOZ1hrMnEzR3lld2l1R0RDNkc3dnRQd0ZZZ1JaN1Y3NXNMVUVxVFM4alJ5TXlMVwpwbHdVN0pDaG5TeVE1QTBYQXYwN2tqMXoxdHFxaFhjNFhmcW5XU0hMaDM1bHh1UmZlOElnZ0tQVjNiZFQ0MzBSCm9lcHB3djVjR3JBcHQrNHh0OXVNSjcycGd6MlMzZSs4WitJQlFhTXRvbU1yQWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFBUwpsNHdab05pdGkzT3d0NDFZdkxrQ1RVeXJUdHVDdjA3SlgxTTF6NlQyb0k4eTZmNmVtWGxReHJ0blFQYXlSM0pHCjdWcUkybUZUcWlaaUQwcUsxVXJMazkwNXNlNS9aVXRjRmJoR3lwTWVaOG1IT0xyNGg5V2ZGK0xoRXZHclZqalIKTFJNNEhKTzdBRGJQNWkxeG9qa2ZKb24zNUFiYlN2ZkRFdmExMVRscXYxRlAxWHZ2bHpIZytMTnZFQ09JVTZBNQptWjN0dDdhblBZejBKZ3hvTnZUOGFzVjk5S2F5R0hUMjF0eHh6dnZHanpUakZEMjZHUG10UWxKS1dtSkVJaHhZCk9yS2VKc01KdHozUFdIMS91VlRWeVdzN2pRdS9vRWNFUWxjcytFYlNVejcyYmFLMEpDUDZuSVpJVjJSaFRqS2IKdmJPaVloNE9tQ0JKVW5lVDhwVC8KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://34.65.16.200
+  name: gke_local-ch-dev-6f80bb1e_europe-west6_local-ch-dev
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRWlUrRGhxWkV3NjVnOUZWakRhOS9RREFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlSbE5ESTRZelprTUMxbVpETm1MVFJpWmpRdE9XRmhOQzFtWkRsbE1ERTVPVFV6T1dZdwpIaGNOTVRrd09ESTVNVEF5TWpBMldoY05NalF3T0RJM01URXlNakEyV2pBdk1TMHdLd1lEVlFRREV5UmxOREk0Cll6WmtNQzFtWkRObUxUUmlaalF0T1dGaE5DMW1aRGxsTURFNU9UVXpPV1l3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUNJdGhXNDQ5SElZbk9YazEyVHVpdUZ1ZFArRldFN3N4bHJycER4THV5YQozcFhVVS9RMExxN3hFTVl3eXpnMFBRaVJpbGFlUitHUWU4ZXg2ZWVUYVU3TUdyY3lEUFZzMEhhOXUvRWJvZ0o1CmxJRjQ1NCtXM1ZoQnVJU3FKbWVhY05VZWVwY3huR1pBclFRMGtSYUEySWd2ZUtLREVwY0hjU1FpTXlIdWtoS1YKOC9IZkhxdFdBSXpHUGluMVVKMmJBZ0RZT08rRHE3SmhCRFpISWoyaThFQ2RyWFp5OC9EekxidjhLUmNiNjZIWQpHdTVGRENsa3R0MjErZCtwRTRjaE0zT0p4NnpkWXhmNEUrRkd6NnQ2WDFpOU00ZjMwU3B3d00zOWRaczJWcStMCmRMK2R2MFFwZ0JDbVdqbkw0TEFhdkRrK2hHTUErTm9relB0bGJDL0FaNVRiQWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFCUgpTbndhUTdqL3FJckR1NlA3Sk8zTEhRK29jL0M0OVU5Qmo3M0hNZ1REY1ZxMm92UVlxbkxhcVdTNGNyd0pwT1FHCjQxZFdyejVYOHhBQlhDT1Y4bWorVTFVWmkyZGNERzJsQU1jTUIzYm50RlFuMHJKZ0xHUlQvNFFIWVdNSHVOY1QKY25EeG5zckdZc0NWamE2MGQxdUlBbFpiRVlKV0xCSUlNU2dycXpwTU84b080a0ZNY1Q2MlpVQnRDdFZETVNMVApIbE9ISk0rMmdwSWFqTXBUUkVpWTh2cE9rZG5XbndGQ2ZoZmVXTkhiM2pGMTBWT2FKN1pQQTdiVHd5MTJOZ2hnCmpLT2pwc0o0SmFTc3QxbGh0UVBhOGhQbzhYZG5VaXhpWGoydUh0QkFuTlpCWGJ6cjIwQ1gyb2Y4SXlEK25qdE4KWWc5clg2WHl1cWppZUNwZ2xCNkMKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://34.65.243.201
+  name: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRWnkzR0NKNHl2cmNuVHpPYWhSMjVWVEFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlSak1USmhaakEwT1Mxa09XRTBMVFJsTkRZdE9EQmxOQzA1WVRabE5ETTNPVFk0T1RFdwpIaGNOTVRrd09ESTVNVEF6TlRFMFdoY05NalF3T0RJM01URXpOVEUwV2pBdk1TMHdLd1lEVlFRREV5UmpNVEpoClpqQTBPUzFrT1dFMExUUmxORFl0T0RCbE5DMDVZVFpsTkRNM09UWTRPVEV3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUM1aGZIeHdPQ1FtTlpEdzk0SzdiNGlNcjRIdmVwZTRSYzhvQjdqc0l6OQpoV2RYWGRLRG9RSjRsUUQ1VitxR0V3TmFveXhWWkhmVFhjcXJITHd5bzV1Z2pZRmlPclNSSXYvSzlRNXI0dHZaClhaNmtLWkRiVm9PRWhJUHAyMEJyRjI1UzIwWmxJK2toMHB4NWN5d1VRYXM5Nnh4VEFQQlkwamxOZUlOZUoxV3EKWG1uVUEzYmxHZnNoSUlRVVlldzVWcjdORUJRUUVlV1d5MEV5WW0zSVJ2c2lrbEdVMHd6cWFqeWdYT1FBWm80TwpCZnlkSVBsTDM3ZlJiS3FRcTRvMVBwcnRZN3l2T1o1VWNjUWM2NUV2ZzVZczQ0ZzF6WHh3cWcvSVVpRFllWW1ICmhvQ2pYZXVJTFRpdE9nTlFMNE5rZUtVazFrRG1wQmYvUXp1MHFqOU1UOEdCQWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFBUgo0ZkxGUzZlazMySGtPMThmR00wbTRrWnJla3EyRWZPNWlTbjAwTGxDUkxyQkdPY0poS3gxcnJLd21Lcy9hU2VwCjlDSFVWUDN1WHkybEVwOGpYU2tUYXl1SnNObGNiUlp5M05FODMwWWI2djRIM2tVK3ZoOVM1aFJrL1ROcC90aTAKOCtjY0IzcDhsbWVieXZkcGJicEE3K3RGc1J6czViL1BuYzVhWnRUVTFZMmJSaVRjc01kYmZJYTBPczJib05zTApwVUwxemdYY292WktKeUpYWmpEYzdpbHRRVzR1aWZLN2t6aXY5R2JBUm0zVTVkL2JqckJMcEhLL2N1NGdPdmRhClc5VlVBSFE5aUh0U1V6SHVuRnFiTldBMWVVRU1hWmhNSmwrUUNhU3B1Q3dPWmUvZDJCdUU1TytXRmFWaGo1NUkKZUkzaXM2Y3k0cVRyM1Z0R0MrNC8KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://34.65.237.160
+  name: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURERENDQWZTZ0F3SUJBZ0lSQU13aDA1ekhSKzRudkNsckhmRGFYWVV3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa05XWmxaVE5rWlRVdFpUZzJOeTAwWm1Ga0xXRTVZemt0WkdZMFpqVTFaV001WldVeQpNQjRYRFRFNU1EZ3lPREUwTkRRek1sb1hEVEkwTURneU5qRTFORFF6TWxvd0x6RXRNQ3NHQTFVRUF4TWtOV1psClpUTmtaVFV0WlRnMk55MDBabUZrTFdFNVl6a3RaR1kwWmpVMVpXTTVaV1V5TUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbTdsM2pUNFVRUDNBRjczaUZmcVhIbkt5TldjSmwvNC9oTFVqcEdKTwpsV2hNM2xNQzlyaXdGbVJlSnIzY2VPNkdxRjl5K2kwSXBRLzF5Wm9zSEk1YnBOMmw3bEpaNFptaGRhTjJ2QVpsCkxOMVFkWlhSTXBNSU5sZWpsQnhpL1UyVUJaaU1KZ1hDYjBDWlBncmd1TVpGa3dHeHNtajRZeXFsVjhYRXNuU2MKMU56dDRycjArc2Jpb0oyNFE4ait6YXZ0bXNuUGhWYWNEMDZwdkRBVFcrMllNR1gxcXV4Vkgrb2laaWY2UWQwKwptNi9VaFhMNXdYaEhST25DVmppdFBSczdkK21tTDZaeW5JWUtIa3BZZ3JSUDFNdTlWU01EaS9HMWg1U2xNVU12Cm5RUGROaXZ1cDVSa09JdlVRNlRIaWk1ZkM4RjB5WHNZTFFSc1pudFcrUk50T3dJREFRQUJveU13SVRBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQQpadHdhQjluSjNwZmdsYU5IS1JzaEYyMEh6TU9mdWRYZ2JoYnZWVW55UXZzRmptWjlEQXlLR0dLc1hYYWNMak9JCmxzSU8wa0QyaUptYjBiMjVSUnNSSi9GekprdzBBVlViN2RRWG4waHk5N2RPMVV2ejJoQzEzYWhKWmc3d0krSG8KS01RTkUzb1dtK0hiTlhWTVhScy9mSjRFTlhMcHpGeGw5OXhEa05leDh4Z0FOdXMyd2QwTS81OU5udHZHZ3A0QQpzM0lkN3p0aDQySDZra1diaCtsREI2cGJudnpsdHYxblRjb05qZ2dLenpVeHQxc3VzWDdaZHk4YzBNb0cxeHFRCkFOT1FRelU3V1BYUGdPaUtsd2ZwcGlsUnpaNU5FSzkyd0lTRUJoTnR5QjNnbk5sdlE5azBPUlJpZW1HK2RheUUKa1lEYTlRS3FqaXB4a1pOOVdqbEpUZz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://34.65.238.4
+  name: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM5ekNDQWQrZ0F3SUJBZ0lKQU85b1pzWXJ3Uk9nTUEwR0NTcUdTSWIzRFFFQkN3VUFNQkl4RURBT0JnTlYKQkFNTUIydDFZbVV0WTJFd0hoY05NVFl3T1RJeU1Ea3lNRFF5V2hjTk5EUXdNakE0TURreU1EUXlXakFTTVJBdwpEZ1lEVlFRRERBZHJkV0psTFdOaE1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBCm8rZ2FXQ3JoWmY5YlpBYkhrdlMvTDRIU28vNzV6bE9MS0VBOVRmUG1wdUdpU29iaERNWVU0SGVTR1A3SU80bngKazhod2RROFNyQVdER2V6bnNLaDhmNit6U1FkbENmSU9pdGgwdkplZHJxTEhJdUVsT2IwK0tkcjd2T1luc0tHVgpYSjgxajNsY3M0c2Ird1c5WVVKMmNoY05oQ0NEVEZvbkhXVDg1WUdRbmRKejlySmxzVER6bTlycDFRM3pKUG9mCmh3MytTVGs1M3FuN2tiVDluanpFL0NDV0JoM1k4clUzcVoyejcwOW5QeWJiZ0lIZ1ZUTWlIa3g4Nk5sUUg5aTMKcWtuVTQxb2M0c0FQM0pZZVpVcXN6VVRXMVVSQkEzRUcwZWlDOXplWGpqdTBjWjE2YkdOd0xTVlkwRXNqT0FzSQpOZHFHdVlUYlpLbUgxQU9hSUsyQU13SURBUUFCbzFBd1RqQWRCZ05WSFE0RUZnUVV6RzNJOW9XOVg5dW5KcjFDCjZWYmt0dHdJa0hvd0h3WURWUjBqQkJnd0ZvQVV6RzNJOW9XOVg5dW5KcjFDNlZia3R0d0lrSG93REFZRFZSMFQKQkFVd0F3RUIvekFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBYXdoRHlXY2pDbldaNEU0TTQya0FiMEVCdkpMVgpuZTZiRGtqcFlnN3AyVXJPVFZ5WmhEM3lSZDM1NWwxNHlVeHpsWW5lQlI5d3ZjVUxUbndZdEFNMHpxOFIzVG9sCis1eGFWWkNmMW1JT0syUzVnV0hra2RyczczU2tsbFYvWG9mL0tmM21rYmFUbU4rdkpCeDA5dFFWM3BCZWJhSGEKNUdMZDRHVnQzWndzeGxTc1JVMDVUUEFWbHRYaER4d2t4dkxZNmNMZmF1TXl0dStmbHc2a2FhTE9UaXR3MTNibQpZSTRNKzBDLzNKdGE1ODk1aTJtZXJmVUF0VUgwNG9kb0xPelJlT3hIakhJS1dMbU9ySDNidnZqYkJQODRsQnVDCmRIK1pkSlMxY1c0RlRCRjNMUEUvUnpwSkppTUF1Q3QwTVVXeGl0czNIdnl1U0NZN2VJeEtTaXFwSEE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://kubernetes.intra.local.ch
+  name: production
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM5ekNDQWQrZ0F3SUJBZ0lKQU85b1pzWXJ3Uk9nTUEwR0NTcUdTSWIzRFFFQkN3VUFNQkl4RURBT0JnTlYKQkFNTUIydDFZbVV0WTJFd0hoY05NVFl3T1RJeU1Ea3lNRFF5V2hjTk5EUXdNakE0TURreU1EUXlXakFTTVJBdwpEZ1lEVlFRRERBZHJkV0psTFdOaE1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBCm8rZ2FXQ3JoWmY5YlpBYkhrdlMvTDRIU28vNzV6bE9MS0VBOVRmUG1wdUdpU29iaERNWVU0SGVTR1A3SU80bngKazhod2RROFNyQVdER2V6bnNLaDhmNit6U1FkbENmSU9pdGgwdkplZHJxTEhJdUVsT2IwK0tkcjd2T1luc0tHVgpYSjgxajNsY3M0c2Ird1c5WVVKMmNoY05oQ0NEVEZvbkhXVDg1WUdRbmRKejlySmxzVER6bTlycDFRM3pKUG9mCmh3MytTVGs1M3FuN2tiVDluanpFL0NDV0JoM1k4clUzcVoyejcwOW5QeWJiZ0lIZ1ZUTWlIa3g4Nk5sUUg5aTMKcWtuVTQxb2M0c0FQM0pZZVpVcXN6VVRXMVVSQkEzRUcwZWlDOXplWGpqdTBjWjE2YkdOd0xTVlkwRXNqT0FzSQpOZHFHdVlUYlpLbUgxQU9hSUsyQU13SURBUUFCbzFBd1RqQWRCZ05WSFE0RUZnUVV6RzNJOW9XOVg5dW5KcjFDCjZWYmt0dHdJa0hvd0h3WURWUjBqQkJnd0ZvQVV6RzNJOW9XOVg5dW5KcjFDNlZia3R0d0lrSG93REFZRFZSMFQKQkFVd0F3RUIvekFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBYXdoRHlXY2pDbldaNEU0TTQya0FiMEVCdkpMVgpuZTZiRGtqcFlnN3AyVXJPVFZ5WmhEM3lSZDM1NWwxNHlVeHpsWW5lQlI5d3ZjVUxUbndZdEFNMHpxOFIzVG9sCis1eGFWWkNmMW1JT0syUzVnV0hra2RyczczU2tsbFYvWG9mL0tmM21rYmFUbU4rdkpCeDA5dFFWM3BCZWJhSGEKNUdMZDRHVnQzWndzeGxTc1JVMDVUUEFWbHRYaER4d2t4dkxZNmNMZmF1TXl0dStmbHc2a2FhTE9UaXR3MTNibQpZSTRNKzBDLzNKdGE1ODk1aTJtZXJmVUF0VUgwNG9kb0xPelJlT3hIakhJS1dMbU9ySDNidnZqYkJQODRsQnVDCmRIK1pkSlMxY1c0RlRCRjNMUEUvUnpwSkppTUF1Q3QwTVVXeGl0czNIdnl1U0NZN2VJeEtTaXFwSEE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://kubernetes-stg.intra.local.ch
+  name: staging
+contexts:
+- context:
+    cluster: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+    namespace: backend-stg
+    user: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+  name: backend-stg
+- context:
+    cluster: gke_local-ch-dev-6f80bb1e_europe-west6_local-ch-dev
+    user: gke_local-ch-dev-6f80bb1e_europe-west6_local-ch-dev
+  name: gke_local-ch-dev-6f80bb1e_europe-west6_local-ch-dev
+- context:
+    cluster: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+    user: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+  name: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+- context:
+    cluster: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+    user: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+  name: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+- context:
+    cluster: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+    user: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+  name: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+- context:
+    cluster: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+    namespace: syseng
+    user: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+  name: gke_stg
+- context:
+    cluster: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+    namespace: nodejs
+    user: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+  name: local-ch-prd-web
+- context:
+    cluster: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+    namespace: web
+    user: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+  name: local-ch-shared-web
+- context:
+    cluster: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+    namespace: nodejs
+    user: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+  name: local-ch-stg-web-dev
+- context:
+    cluster: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+    namespace: nodejs
+    user: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+  name: local-ch-stg-web-stg
+- context:
+    cluster: production
+    namespace: web
+    user: cwider
+  name: web
+- context:
+    cluster: staging
+    namespace: web-dev
+    user: cwider
+  name: web-dev
+current-context: local-ch-stg-web-stg
+kind: Config
+preferences: {}
+users:
+- name: cwider
+  user:
+    token: cGNiJUEChVOnUor0GRKUaluafyN43Awn
+- name: gke_local-ch-dev-6f80bb1e_europe-west6_local-ch-dev
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.a0ARrdaM_WXJCaflKSgOjMRY94xC0PUpW9DDErdUyFR5l2QJ-iiKBPnN-6Kl2p0rSaA8OvDJdGBxA5G0v7EUugCo-bmvoX2PBNof6GPL8BFx4ko3yoie2cMSd-cUsZp9BnpeKfMbBrjyFmNz6xXG26bRZympkfSOVGI8w8QsQ
+        cmd-args: config config-helper --format=json
+        cmd-path: /opt/google-cloud-sdk/bin/gcloud
+        expiry: "2021-11-16T13:34:31Z"
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+- name: gke_local-ch-prd-6f80bb1e_europe-west6_local-ch-prd
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args: null
+      command: gke-gcloud-auth-plugin
+      env: null
+      installHint: Install gke-gcloud-auth-plugin for use with kubectl by following
+        https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+      interactiveMode: IfAvailable
+      provideClusterInfo: true
+- name: gke_local-ch-shared-6f80bb1e_europe-west6_local-ch-shared
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args: null
+      command: gke-gcloud-auth-plugin
+      env: null
+      installHint: Install gke-gcloud-auth-plugin for use with kubectl by following
+        https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+      interactiveMode: IfAvailable
+      provideClusterInfo: true
+- name: gke_local-ch-stg-6f80bb1e_europe-west6_local-ch-stg
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args: null
+      command: gke-gcloud-auth-plugin
+      env: null
+      installHint: Install gke-gcloud-auth-plugin for use with kubectl by following
+        https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+      interactiveMode: IfAvailable
+      provideClusterInfo: true
+- name: rspec
+  user:
+    token: my_random_token

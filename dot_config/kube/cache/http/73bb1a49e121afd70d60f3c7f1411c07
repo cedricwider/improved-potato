@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 542
+Audit-Id: 41013833-b936-44b7-99b5-450e20a6f316
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:51:08 GMT
+X-Kubernetes-Pf-Flowschema-Uid: c2e900a2-0a80-4b40-9bd0-a2c3391e7ca0
+X-Kubernetes-Pf-Prioritylevel-Uid: e50bee9d-34aa-46cf-8176-eb290fd81f35
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apiextensions.k8s.io/v1beta1","resources":[{"name":"customresourcedefinitions","singularName":"","namespaced":false,"kind":"CustomResourceDefinition","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["crd","crds"],"categories":["api-extensions"],"storageVersionHash":"jfWCUB31mvA="},{"name":"customresourcedefinitions/status","singularName":"","namespaced":false,"kind":"CustomResourceDefinition","verbs":["get","patch","update"]}]}

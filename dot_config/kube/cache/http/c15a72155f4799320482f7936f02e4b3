@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 448
+Audit-Id: bdd5f5da-cf40-4cca-b174-0533afe9cfae
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 21 Feb 2024 14:08:13 GMT
+X-Kubernetes-Pf-Flowschema-Uid: c2e900a2-0a80-4b40-9bd0-a2c3391e7ca0
+X-Kubernetes-Pf-Prioritylevel-Uid: e50bee9d-34aa-46cf-8176-eb290fd81f35
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apps.arangodb.com/v1","resources":[{"name":"arangojobs","singularName":"arangojob","namespaced":true,"kind":"ArangoJob","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangojob"],"storageVersionHash":"Njh5Q9b1q1w="},{"name":"arangojobs/status","singularName":"","namespaced":true,"kind":"ArangoJob","verbs":["get","patch","update"]}]}

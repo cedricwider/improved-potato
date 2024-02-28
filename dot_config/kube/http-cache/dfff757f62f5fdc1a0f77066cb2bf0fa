@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 504
+Access-Control-Allow-Origin: http://localhost:40781
+Audit-Id: a98d5c71-cd09-4b53-a9a6-45ce94c528ef
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 03 Nov 2020 14:11:08 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"elasticsearch.k8s.elastic.co/v1beta1","resources":[{"name":"elasticsearches","singularName":"elasticsearch","namespaced":true,"kind":"Elasticsearch","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["es"],"categories":["elastic"],"storageVersionHash":"pmO5FGS2dB4="},{"name":"elasticsearches/status","singularName":"","namespaced":true,"kind":"Elasticsearch","verbs":["get","patch","update"]}]}

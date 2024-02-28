@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 402
+Audit-Id: cf964ab2-cff8-4d60-88ba-f5bdc0a7156e
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 25 Jun 2021 15:56:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"replication.database.arangodb.com/v1","resources":[{"name":"arangodeploymentreplications","singularName":"arangodeploymentreplication","namespaced":true,"kind":"ArangoDeploymentReplication","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangorepl"],"storageVersionHash":"R0HKdv4tKQo="}]}

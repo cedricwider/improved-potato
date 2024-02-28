@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 473
+Audit-Id: 10c3c8a5-8ec9-4707-8618-4e9924d30d0c
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:51:08 GMT
+X-Kubernetes-Pf-Flowschema-Uid: c2e900a2-0a80-4b40-9bd0-a2c3391e7ca0
+X-Kubernetes-Pf-Prioritylevel-Uid: e50bee9d-34aa-46cf-8176-eb290fd81f35
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apm.k8s.elastic.co/v1beta1","resources":[{"name":"apmservers","singularName":"apmserver","namespaced":true,"kind":"ApmServer","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["apm"],"categories":["elastic"],"storageVersionHash":"uekrp1G8+eM="},{"name":"apmservers/status","singularName":"","namespaced":true,"kind":"ApmServer","verbs":["get","patch","update"]}]}

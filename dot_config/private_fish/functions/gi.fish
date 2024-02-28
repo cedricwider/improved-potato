@@ -1,0 +1,3 @@
+function gi
+  git
+end

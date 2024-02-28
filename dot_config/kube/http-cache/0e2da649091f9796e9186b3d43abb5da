@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 307
+Audit-Id: a5c2cde2-6357-45ff-918c-b343df4e2ec3
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:54 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"discovery.k8s.io/v1beta1","resources":[{"name":"endpointslices","singularName":"","namespaced":true,"kind":"EndpointSlice","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"storageVersionHash":"Nx3SIv6I0mE="}]}

@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 353
+Audit-Id: 2a437a77-0cdb-4e2b-8f2d-1fd7f9ad29df
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:54 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"networking.gke.io/v1","resources":[{"name":"managedcertificates","singularName":"managedcertificate","namespaced":true,"kind":"ManagedCertificate","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["mcrt"],"storageVersionHash":"FD3rYAFSqMY="}]}

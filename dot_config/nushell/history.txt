@@ -1,0 +1,849 @@
+la
+ls
+help
+sys
+sys | get host
+clear ; reset
+dust 
+alias
+paru -Syyu
+paru -Qi xdg-desktop-portal-hyprland-git
+paru -Qi xdg-desktop-portal-hyprland-git | get version
+paru -Qi xdg-desktop-portal-hyprland-git | as json
+ninja
+paru -Rsn lutris
+paru -Qi neovim
+paru -Qi neovim | parse | get Version
+paru -Qi neovim | lines
+paru -Qi neovim | lines | first
+paru -Qi neovim | lines | first 3
+scope aliases
+shells
+g
+n
+.config/
+la
+lsd -lah
+la
+ll
+ls
+ls -lah
+ls -la
+core-ls
+mount
+help
+help help
+help aliases
+help commands
+tutor
+tutor begin
+ls
+ls | select ssh
+ls | select name
+tutor tables
+ls | select 0
+ls | select 2
+ls
+rm ClickShare_Setup.exe
+parse Categories-1684243526360.json
+parse Categories-1684243526360.json | print 
+cat Categories-1684243526360.json
+bat Categories-1684243526360.json
+la
+ls
+tutor tables
+ls | get name
+tutor cells
+ls | select 3 | get name
+(ls).3.name
+(ls)
+tutor expressions
+10 / 2
+tutor echo
+echo 1..10
+tutor each
+echo 1..10 | each {|it| $it + 10}
+tutor blocks
+tutor variables
+let x = 3
+echo $x
+let $x =  4
+echo $x
+echo $it
+echo $in
+echo $nu
+echo $nu.config-path
+nvim $nu.config-path
+tutor begin
+tutor --help
+tutor -f plugins
+tutor plugins
+tutor list
+tutro expr
+tutor expr
+tutor shorthand
+help help
+help alias
+ls -la
+ls
+ls -l
+ls -a
+man nu
+help alias
+help commands
+help commands | select name
+banner
+help banner
+help bits
+help break
+cal
+help cal
+cal --week-start monday
+cal --week-start monday -m
+help cd
+help char
+char --list
+help collect
+help columns
+ls | columns
+help commandline
+commandline -c
+help compact
+help complete
+help config
+config env
+help create_left_prompt
+help date format
+help date
+date today
+today
+date | today
+date now
+today
+debug
+help def
+help config.buffer_editor
+help config
+echo $config.buffer_editor
+help menu
+~/.config/nushell/
+la
+alias la = ls -a
+la
+gh repo clone nushell/nu_scripts
+la
+source nu_scripts/themes/nu-themes/catppuccin-mocha.nu
+alias cat = bat
+cat nu_scripts/themes/README.md
+la
+use ./nu_scripts/themes/nu-themes/catppuccin-mocha.nu
+use ./nu_scripts/themes/nu-themes/catppuccin-mocha.nun
+use ./nu_scripts/themes/nu-themes/catppuccin-mocha.nu
+(catppuccin-mocha )
+clear ; reset
+cat nu_scripts/themes/README.md
+$env.config = ($env.config | merge {color_config: (catppuccin-mocha )})
+la
+use nupm
+la
+nu_scripts/
+la
+use nupm
+cat README.md
+fd nupm
+ag nump
+ag nupm
+la
+modules/prompt/
+la
+cat README.md
+icat ./images/starship.png
+kitty +kitten icat ./images/starship.png
+alias icat = kitty +kitten icat
+icat ./images/starship.png
+alias cr = clear ; reset
+alias cr = 'clear ; reset'
+clear | reset
+alias cr = clear | reset
+alias cr = (clear | reset)
+la
+cat README.md
+icat ./images/shell_space.png
+icat ./images/jalon-git.png
+la
+./starship.nu
+use starship.nu 
+source starship.nu
+source powerline/power.nu
+la
+source starship.nu
+la
+~/Developer/work/typescript/ted-monorepo/
+-
+pwd
+cd -
+../../
+la
+gwd
+pwd
+../
+la
+cat env.nu
+la
+nu_scripts/
+la
+fd scripts
+cat nu_scripts/themes/README.md
+../
+cat nu_scripts/themes/README.md
+echo $env.config.color_config
+cat nu_scripts/themes/README.md
+echo $env.config.completion_mode
+echo $env.config.completions
+echo $env.config.completions.external
+fzf
+echo $env.config.completion_algorithm
+ag completion
+ag completion config.nu
+ag completion_algorithm
+$env.config = ($env.config | merge {completion_algorithm: 'fuzzy'})
+ag carapace
+paru -Ss carapace
+paru -S carapace
+carapace
+carapace carapace _nushell
+carapace chmod nushell
+la
+ag carapace
+v config.nu
+alias v = nvim
+v config.nu
+pwd
+la
+ls -a
+ag alias history.txt
+ag alias history.txt | parse
+help parse
+ag alias history.txt 
+ag alias history.txt | parse "alias"
+ag alias history.txt | parse --regex '(?P<line>[0-9]+):(?P<alias>alias .*)' 
+ag alias history.txt | parse --regex '(?P<line>[0-9]+):(?P<alias>alias .*)' | select alias
+ag alias history.txt | ag -v clear | parse --regex '(?P<line>[0-9]+):(?P<alias>alias .*)' | select alias
+ag alias history.txt | ag -v clear | parse --regex '(?P<line>[0-9]+):(?P<alias>alias .*)' | select alias | save alias.nu
+ag alias history.txt | ag -v clear | parse --regex '(?P<line>[0-9]+):(?P<alias>alias .*)' | select alias | collect | save alias.nu
+la
+alias la = ls -a
+la
+alias la = ls -a
+la
+source nu_scripts/modules/prompt/starship.nu
+$env.config = ($env.config | merge {color_config: (catppuccin-mocha )})
+la
+ls -a
+echo "doener" | str stats
+echo "doener" | str stats | use cars
+echo "doener" | str stats | get chars
+echo "doener" | chars
+echo "doener" | char
+help char
+echo "doener" | str
+echo "doener macht schoener" | str title-case
+env
+nu
+$env
+$env.config
+la
+ls -a
+ls -a | get name
+ls -a | get name date
+ls -a | get name size
+ls -a | get name, size
+ls -a | select name
+ls -a | select name size
+ls -a | select name size | where name =~ 'nap'
+source ~/.config/nushell/nu_scripts/custom-completions/gh/gh-completions
+source ~/.config/nushell/nu_scripts/custom-completions/gh/gh-completions.nu
+bw 
+bw get 
+bw list 
+bw list google
+paru -Ss bitwarden-cli
+paru -S bitwarden-cli
+pass show www.google.com/wider.cedric@gmail.com
+Developer/work/typescript/
+la
+Developer/work/typescript/mywebsite-service/
+la
+git_main_branch 
+ssh-add ~/Private/keys/ssh/lnvp1_github
+gup 
+g up
+g st
+g lp
+glg
+g lg
+la
+Developer/work/typescript/ted-monorepo/
+la
+g up
+pass show www.google.com/wider.cedric@gmail.com | str length
+pass show www.google.com/wider.cedric@gmail.com
+pass show www.google.com/wider.cedric@gmail.com | get 0
+pass show www.google.com/wider.cedric@gmail.com | split
+pass show www.google.com/wider.cedric@gmail.com | split column
+pass show www.google.com/wider.cedric@gmail.com | parse
+pass show www.google.com/wider.cedric@gmail.com | parse 'n'
+pass show www.google.com/wider.cedric@gmail.com
+help parse
+pass show www.google.com/wider.cedric@gmail.com | split 
+pass show www.google.com/wider.cedric@gmail.com | split chars '\n'
+pass show www.google.com/wider.cedric@gmail.com | split chars
+pass show www.google.com/wider.cedric@gmail.com | split 
+pass show www.google.com/wider.cedric@gmail.com | split row
+pass show www.google.com/wider.cedric@gmail.com | split list
+pass show www.google.com/wider.cedric@gmail.com | split column
+pass show www.google.com/wider.cedric@gmail.com | split words
+help split
+help split row
+pass show www.google.com/wider.cedric@gmail.com | split row '\n'
+pass show www.google.com/wider.cedric@gmail.com | split column '\n'
+help split
+help split list
+pass show www.google.com/wider.cedric@gmail.com | split list '\n'
+pass show www.google.com/wider.cedric@gmail.com | split list --regex '\w+'
+pass show www.google.com/wider.cedric@gmail.com | split list --regex 'w+'
+pass show www.google.com/wider.cedric@gmail.com | split list --regex '\w'
+pass show www.google.com/wider.cedric@gmail.com | detect columns 
+help detect columns
+pass show www.google.com/wider.cedric@gmail.com | detect columns --no-header
+pass show www.google.com/wider.cedric@gmail.com | detect columns --no-headers
+pass show www.google.com/wider.cedric@gmail.com | split row  | detect columns --no-headers
+pass show www.google.com/wider.cedric@gmail.com | split row '\n' | detect columns --no-headers
+pass show www.google.com/wider.cedric@gmail.com | detect columns --no-headers
+pass show www.google.com/wider.cedric@gmail.com | detect columns --no-headers | get 0
+pass show www.google.com/wider.cedric@gmail.com | detect columns --no-headers | get 0.column0
+dir
+df
+df | detect columns
+mount
+mount | detect columns
+mount | detect columns | select proc, /proc
+mount | detect columns | get proc, /proc
+mount | detect columns | select 'proc, /proc'
+mount | detect columns | select 'proc', '/proc'
+mount | head 1
+mount | head 
+dust
+help
+help sys
+help commands
+help commands | where category = 'core'
+help commands | where category == 'core'
+help commands | where category == 'core' | get name, usage
+help commands | where category == 'core' | get name usage
+help commands | where category == 'core' | selec name usage
+help commands | where category == 'core' | select name usage
+du
+dust
+du -h
+du /
+du ~/
+du -d 2
+du -d 2 ~/
+du -d 2 ~/.config
+la
+ll
+la
+ls -l
+alias ll = ls -l
+ll
+alias ll = ls -la
+ll
+ll | where size > '554 B'
+ll | where size > 554
+ll | where size >= 554
+ls
+ll
+cat rename-nitro-output.sh
+bat rename-nitro-output.sh
+mount
+mount | ag mtp
+lsusb 
+dmesg
+please
+sudo dmesg
+~/Downloads/workouts/
+la
+gunzip 2024-01-14-132552-ELEMNT_ROAM_C502-21-0.fit.gz
+la
+la | sort-by modified
+help from
+y tealdear
+paru -Ss tealdeer
+ys tealdeer
+tldr tldr
+tldr --updtae
+tldr --update
+tldr tldr
+open 2024-01-14-132552-ELEMNT_ROAM_C502-21-0.fit
+z mono
+~/Developer/work/typescript/mywebsite-service/
+la
+open package.json
+open package.json | get version
+open package.json | get scripts
+help lines
+pass show www.google.com/wider.cedric@gmail.com | lines
+pass show www.google.com/wider.cedric@gmail.com | lines | get 0
+direnv export json
+~/Developer
+direnv export json
+direnv
+direnv help
+direnv help export
+tldr direnv
+man direnv
+carapace
+~/Developer/work/typescript/mywebsite-service/
+env
+la
+open docker-compose.yml
+open deploy/templates/deployment.yml
+gh pr list
+gh pr list | parse
+gh pr list | lines
+gh pr list
+gh pr viaw
+gh pr view
+gh pr checks
+npm run test
+npm run lint:fix
+g st
+lg
+gh pr view -w
+npm run test:e2e:cov
+npm run test:unit:cov
+g co main
+g st
+g diff
+g stash
+g co main
+g up
+ls
+cd -
+la
+ll
+ls
+la
+ll
+ls -la
+la
+lsd -lah
+lsd -lah | lines
+lsd -lah | table 
+ls
+ls -l
+ls -l | where type == file
+ls -l | where type == file | get name
+ls -l | where type == file | get name | each {|it| echo $it}
+ls -l *.nu | where type == file | get name | each {|it| echo $it}
+ls -l *.nu | where type == file | get name | each {|it| print $it}
+$env.config
+ls -la modules/*.nu
+ls -la ./modules/*.nu
+ls -la ./modules
+ls -la ./modules/*.nu
+touch modules/empty.nu
+ls -la ./modules/*.nu
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {|module| source ~/.config/nushell/modules/$module}
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {source ~/.config/nushell/modules/$it}
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {source "~/.config/nushell/modules/$it"}
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {|it| source "~/.config/nushell/modules/$it"}
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {|it| echo "~/.config/nushell/modules/$it"}
+help each
+help string
+help concat
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {|it|  "~/.config/nushell/modules/" | append $it | str join}
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {|it|  print $it}
+ls -a ~/.config/nushell/modules/*.nu | where type == "file" | get name | each {|it|  source $it}
+la
+ll
+g st
+g lg
+open package.json | get version
+open package.json | get version | inc --patch
+help increment
+help inc
+help commands
+help commands | where name ~= inc
+help commands | where name =~ inc
+help commands | where name =~ rement
+help commands | where name =~ rap
+g co create-new-release
+gr
+pr
+~/.config/fish/functions/pr.fish
+fish ~/.config/fish/functions/pr.fish
+cat ~/.config/fish/functions/pr.fish
+git branch --show-current
+git branch --show-current | str title-case 
+g reset HEAD~1
+g cb add-forgotten-release
+g st
+g aa
+g cm 'release: Create new patch release'
+git branch --show-current | str title-case 
+gh pr create --title (git branch --show-current | str title-case )
+gh pr view -w
+gh pr edit --add-label reviewable
+cat README.md
+cat README.md | nu-highlight 
+open package.json | get scripts
+open package.json | get scripts | get 0
+open package.json | get scripts | first
+open package.json | get scripts 
+open package.json | get scripts | 1
+open package.json | get scripts
+mount
+mount | ag wolk
+mount | ag work
+kubectl config get-contexts
+kubectl config get-contexts | parse
+kubectl config get-contexts | lines
+kubectl config get-contexts | lines | split
+kubectl config get-contexts | lines | split column
+help split
+kubectl config get-contexts | lines | split row
+kubectl config get-contexts | lines | split words
+kubectl config get-contexts | lines | split column " +"
+kubectl config get-contexts | lines | split word
+kubectl config get-contexts | lines | split column "\w"
+help split column
+kubectl config get-contexts | lines | split column ''
+kubectl config get-contexts | lines | split column ' '
+kubectl config get-contexts | lines | split column --collapse-empty ' '
+kubectl config get-contexts | detect columns
+kubectl get pods
+~/.config/fish/functions/lnvpn.fish
+~/.config/fish/functions/lvpn.fish
+fish ~/.config/fish/functions/lvpn.fish
+snx
+kubectl get pods
+kubectl get pods | detect columns
+kubectl get pods | detect columns | sort-by age
+kubectl get pods | detect columns | sort-by AGE
+ls 
+ls | get name | each {|it| cp $it ~/scripts/ ; ln -s ~/scripts/$it $it}
+la
+la ~/scripts/ | where name=~rofi
+la ~/scripts/ | where name =~ rofi
+la
+la | get name | each {|it| rm $it ; ln -s ~/scripts/$it $it}
+la
+let x = rofi-config-browser.fish
+let x = 'rofi-config-browser.fish'
+hello + $x
+'hello' + $x
+la | get name | each {|it| rm $it ; ln -s ('~/scripts/' + $it) $it}
+la
+la | get name | each {|it| rm $it ; ln -s ('/home/cedricwider/scripts/' + $it) $it}
+la
+ls -la
+ls -la | first
+ls -la | first | get target
+ls -la | first | get target | cat
+cat (ls -la | first | get target)
+fish rofi-config-browser.fish
+cd
+npm run test:unit:cov
+g branch --lest
+g branch --list
+g co int-368
+g co int-368-clean-up-place-related-repos
+npm run test:unit:cov
+gh run watch
+gh pr view -w
+gh run watch
+gh run wabch
+Downloads/
+la | order-by created-at
+la | sort-by modified
+./abaclient_3.1.987.run
+chmod +x abaclient_3.1.987.run
+./abaclient_3.1.987.run
+gh run watch
+g reset --hard HEAD~1
+g pf
+ssh-add ~/Private/keys/ssh/lnvp1_github
+g pf
+gh run watch
+v
+open coverage-final.json
+la
+la | sort-by modified
+la | sort-by modified | select name
+....
+work/typescript
+work/typescript/
+la
+la | where type == dir
+la | where type == dir | where name != .git
+la | where type == dir | where name != .git | select name | each {|dir| cd $dir ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name | into string | each {|dir| cd $dir ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name | each {|| into string } | each {|dir| cd $dir ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name 
+la | where type == dir | where name != .git | select name | each {|| into string}
+la | where type == dir | where name != .git | select name | values | each {|| into string } | each {|dir| cd $dir ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name | values | each {|dir| cd $dir ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name | values 
+la | where type == dir | where name != .git | select name 
+la | where type == dir | where name != .git | select name | each {|dir| print $dir}
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name}
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | each {|dirname| cd $dirname ; git stash ; git checkout main ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | take 0
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | take 1
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | [0]
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | [1]
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | first
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | first(1)
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | first[1]
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | first
+la | where type == dir | where name != .git | select name | first
+la | where type == dir | where name != .git | select name | first.name
+la | where type == dir | where name != .git | select name | first | select name
+la | where type == dir | where name != .git | select name | first | take hame
+la | where type == dir | where name != .git | select name | first | take name
+la | where type == dir | where name != .git | select name | first | take 1
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | each {|dirname| cd $dirname ; git stash ; git checkout main ; git pull ; cd ..}
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | each {|dirname| print $dirname}
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} | each {|dirname| print "Hello $dirname"}
+la | where type == dir | where name != .git | select name | each {|dir| print $dir.name} 
+la | where type == dir | where name != .git | select name | each {|dir| cd $dir.name ; git stash ; git checkout main ; git pull ; cd ..}
+la
+cd
+la
+n
+v
+z mono
+pwd
+Developer/work/typescript/ted-monorepo/
+g up
+git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | first 10
+git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | first 10 | where comitter == 'sanja krstic'
+git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | first 10 | where committer == 'sanja krstic'
+git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | first 10 | where committer == 'sanja krstic' | first 1
+git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | first 10 | where committer == 'sanja krstic' | first 1 | select sha1
+git log --pretty=%h»¦«%aN»¦«%s»¦«%aD | lines | split column "»¦«" sha1 committer desc merged_at | histogram committer merger | sort-by merger | reverse
+help histogram
+kubectl get secrets mywebsite-service -o json | from json
+kubectl get secrets mywebsite-service -o json | from json | get data.pghost
+kubectl get secrets mywebsite-service -o json | from json | get data.pghost | base64 -d
+g up
+g st
+g diff
+g co .
+g up
+bundle
+g config global user
+git config global
+git config user
+git config
+git config --global
+git config --global --get user
+git config --global --get username
+git config --global --list
+git config --global --get user.name
+cd
+g up
+npm i
+npm audit fix
+g cb npm-audit-fix
+npm run test
+g diff 
+lg
+pr
+k get pods
+neovide . &
+cp -rfv Thunar/ ~/.config/
+neovide ~/.config/Thunar/
+la ~/.config/wofi/
+mv ~/.config/wofi/ ~./config/wofi.bac/
+mv ~/.config/wofi/ ~/.config/wofi.bac/
+cp -rfv wofi/ ~/.config/
+y spicetify
+ys spicetify-cli
+paru -Qi evdi
+y evdi-compat-git
+ls -la | first | get target | cat
+ls -la | first
+ls -la
+la
+.config/sway/
+la
+borg list ssh://backup/mnt/volume_one/backups/borg_repositories
+Developer/
+la
+dotfiles/
+la
+i3blocks/
+la
+v config
+../i3/
+gh api orgs/local-ch/teams
+gh api orgs/local-ch/teams | from JSON
+gh api orgs/local-ch/teams | from_json
+gh api orgs/local-ch/teams | from json
+gh api orgs/local-ch/teams | from json | where slug = 'products-engineering'
+gh api orgs/local-ch/teams | from json | where slug == 'products-engineering'
+gh api orgs/local-ch/teams | from json | where slug == 'products-engineering' | select repositories_url
+gh api organizations/474837/team/4091534/repos 
+gh api organizations/474837/team/4091534/repos | from json | where archived == false and disabled == false
+gh api organizations/474837/team/4091534/repos | from json | where archived == false and disabled == false | select name, full_name
+gh api organizations/474837/team/4091534/repos | from json | where archived == false and disabled == false | select name full_name
+gh api repos/local-ch/localsearch/events
+gh api repos/local-ch/localsearch/events | from json | count
+gh api repos/local-ch/localsearch/events | from json
+gh api organizations/474837/team/4091534/repos | from json | where archived == false and disabled == false | select name full_name
+gh api orgs/local-ch/teams | from json | select slug
+gh api orgs/local-ch/teams | from json | where slug == 'mywebsite' | select repositories_url
+gh api organizations/474837/team/4172822/repos | from_json
+gh api organizations/474837/team/4172822/repos | from json
+gh api orgs/local-ch/teams | from json | where slug == 'integrations' | select repositories_url
+gh api  | from json
+gh api organizations/474837/team/8431688/repos | from json
+gh api orgs/local-ch/teams | from json | select slug
+gh api orgs/local-ch/teams | from json | where slug in (dreamproduction integrations mywebsite products-engineering)
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction integrations mywebsite products-engineering
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,products-engineering
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering'
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering
+gh api orgs/local-ch/team/9318403
+gh api orgs/local-ch/team/9318403/repos
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| gh api "orgs/local-ch/teams/($id)/repos"}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| gh api "orgs/local-ch/teams/($id.id)/repos"}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| puts $id}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| puts $id.id}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| print $id.id}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| print "gh api orgs/local-ch/teams/(($id).id)/repos"}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| print $"gh api orgs/local-ch/teams/(($id).id)/repos"}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| gh api $"orgs/local-ch/teams/(($id).id)/repos" | from json}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| gh api $"orgs/local-ch/team/(($id).id)/repos" | from json}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| gh api $"orgs/local-ch/team/(($id).id)/repos" | from json | where archived == false and disabled == false}
+gh api orgs/local-ch/teams | from json | where slug in dreamproduction,integrations,mywebsite,'products-engineering' and slug != engineering | select id | each {|id| gh api $"orgs/local-ch/team/(($id).id)/repos" | from json | where archived == false and disabled == false | select name full_name}
+gh api orgs/local-ch/repositories?type=all&q=lang%3ARuby
+gh api --help
+gh api orgs/local-ch/repositories -q type=all
+gh api orgs/local-ch/repositories -f q='lang:Ruby'
+gh api orgs/local-ch/repositories -f q='lang=Ruby'
+gh api orgs/local-ch/repositories -q 'lang:Ruby'
+gh api orgs/local-ch/repositories -f q='lang=Ruby'
+gh api orgs/local-ch/repositories -f type='all'
+gh api orgs/local-ch/repositories
+gh api org/local-ch/repositories
+gh api orgs/local-ch/repos
+gh api orgs/local-ch/repos -f q='lang=Ruby'
+gh api orgs/local-ch/repos?type=all&q=lang%3ARuby
+gh api orgs/local-ch/repos?type=all&q=lang%3ARuby | from json | where archived == false and disabled == false
+gh api orgs/local-ch/repos?type=all&q=lang%3ARuby | from json | where archived == false and disabled == false | select name long_name
+gh api orgs/local-ch/repos?type=all&q=lang%3ARuby | from json | where archived == false and disabled == false
+gh api orgs/local-ch/repos?type=all&q=lang%3ARuby | from json | where archived == false and disabled == false | select name full_name
+# Define the GitHub organization name<\n>$org_name = "local-ch"<\n><\n># Query GitHub API using gh tool to get list of repositories<\n>gh api "orgs/$org_name/repos" | get repositories | each {<\n>    # Extract repository name and URL<\n>    $repo_name = .name<\n>    $repo_url = .html_url<\n><\n>    # Query GitHub API to get contributors for each repository<\n>    $contributors = (gh api "repos/$org_name/$repo_name/contributors" | get -j | each {<\n>        # Extract contributor's login<\n>        $contributor_login = .login<\n><\n>        # Extract contributor's number of contributions<\n>        $contributions = .contributions<\n><\n>        # Emit login and contributions as a tuple<\n>        [$contributor_login, $contributions]<\n>    })<\n><\n>    # Sort contributors by number of contributions in descending order and take top 2<\n>    $top_contributors = $contributors | sort-by $it.1 -r | nth 0..1<\n><\n>    # Extract top contributor's login<\n>    $top_contributors_login = $top_contributors | get 0.0<\n><\n>    # Extract top contributor's number of contributions<\n>    $top_contributors_contributions = $top_contributors | get 0.1<\n><\n>    # Emit repository name, URL, and top contributors<\n>    [$repo_name, $repo_url, $top_contributors_login, $top_contributors_contributions]<\n>} | table name, url, top_contributor, contributions<\n>
+# Define the GitHub organization name<\n>org_name = "local-ch"<\n><\n># Query GitHub API using gh tool to get list of repositories<\n>gh api "orgs/$org_name/repos" | get repositories | each {<\n>    # Extract repository name and URL<\n>    $repo_name = .name<\n>    $repo_url = .html_url<\n><\n>    # Query GitHub API to get contributors for each repository<\n>    $contributors = (gh api "repos/$org_name/$repo_name/contributors" | get -j | each {<\n>        # Extract contributor's login<\n>        $contributor_login = .login<\n><\n>        # Extract contributor's number of contributions<\n>        $contributions = .contributions<\n><\n>        # Emit login and contributions as a tuple<\n>        [$contributor_login, $contributions]<\n>    })<\n><\n>    # Sort contributors by number of contributions in descending order and take top 2<\n>    $top_contributors = $contributors | sort-by $it.1 -r | nth 0..1<\n><\n>    # Extract top contributor's login<\n>    $top_contributors_login = $top_contributors | get 0.0<\n><\n>    # Extract top contributor's number of contributions<\n>    $top_contributors_contributions = $top_contributors | get 0.1<\n><\n>    # Emit repository name, URL, and top contributors<\n>    [$repo_name, $repo_url, $top_contributors_login, $top_contributors_contributions]<\n>} | table name, url, top_contributor, contributions<\n>
+# Define the GitHub organization name<\n>org_name = "local-ch"<\n><\n># Query GitHub API using gh tool to get list of repositories<\n>gh api "orgs/$org_name/repos" | get repositories | each {<\n>    # Extract repository name and URL<\n>    repo_name = .name<\n>    repo_url = .html_url<\n><\n>    # Query GitHub API to get contributors for each repository<\n>    contributors = (gh api "repos/$org_name/$repo_name/contributors" | get -j | each {<\n>        # Extract contributor's login<\n>        contributor_login = .login<\n><\n>        # Extract contributor's number of contributions<\n>        contributions = .contributions<\n><\n>        # Emit login and contributions as a tuple<\n>        [$contributor_login, $contributions]<\n>    })<\n><\n>    # Sort contributors by number of contributions in descending order and take top 2<\n>    top_contributors = $contributors | sort-by $it.1 -r | nth 0..1<\n><\n>    # Extract top contributor's login<\n>    top_contributors_login = $top_contributors | get 0.0<\n><\n>    # Extract top contributor's number of contributions<\n>    top_contributors_contributions = $top_contributors | get 0.1<\n><\n>    # Emit repository name, URL, and top contributors<\n>    [$repo_name, $repo_url, $top_contributors_login, $top_contributors_contributions]<\n>} | table name, url, top_contributor, contributions<\n>
+la
+Downloads/
+la
+rm 🏗️+Responsibilites.doc
+ls -larth
+ls
+ls | order by modified
+ls | sort-by modified
+Downloads/
+ls | sort-by modified
+unzip --help
+unzp Download_ePost_20240217T170246Z.zip -d ~/Documents/Letters/
+unzip Download_ePost_20240217T170246Z.zip -d ~/Documents/Letters/
+../Documents/Letters/
+~/Documents/Letters/
+la
+rr
+alias rr = ranger
+rr
+../Finance/invoices/
+rr
+tk sync
+alias tk = task
+tk sync
+cd
+la
+yy
+ssh matrix
+ssh raspione
+la
+yy
+ssh raspione
+yy
+Downloads/
+la
+la | sort-by modified
+rm Download_ePost_20240217T170246Z.zip
+y etcher
+ys etcher-bin
+etcher &
+sudo etcher
+etcher &
+get https://fra1.dl.elementary.io/download/MTcwODM1Mzk5Nw==/elementaryos-7.1-stable.20230926rc.iso
+['int-379', 'int-380']
+['int-379', 'int-380'] | for_each {|ticket| print $ticket }
+['int-379', 'int-380'] | each {|ticket| print $ticket }
+['int-379', 'int-380', 'pro-4015', 'pro-4064', 'pro-4047', 'pro-4051', 'pro-4061', 'pro-4062', 'pro-4066', 'pro-4050'] | each {|ticket| print $ticket }
+['int-379', 'int-380', 'pro-4015', 'pro-4064', 'pro-4047', 'pro-4051', 'pro-4061', 'pro-4062', 'pro-4066', 'pro-4050'] | each {|ticket| jira issue edit $ticket --label scheduled }
+jira issue edit int-379 --label scheduled
+jira issue edit int-380 --label scheduled
+jira issue edit pro-4015 --label scheduled
+jira issue edit pro-4064 --label scheduled
+jira issue edit pro-4047 --label scheduled
+jira issue edit pro-4051 --label scheduled
+jira issue edit pro-4061 --label scheduled
+jira issue edit pro-4062 --label scheduled
+jira issue edit pro-4066 --label scheduled
+jira issue edit pro-4050 --label scheduled
+open ../work/notes/projects/maintenance/all_systems.md
+open ~/tmp/repolist.txt
+open ~/tmp/repolist.txt | each {|repo| print "local-ch/$repo"}
+open ~/tmp/repolist.txt | lines | each {|repo| print "local-ch/$repo"}
+open ~/tmp/repolist.txt | lines | each {|repo| print ("local-ch/$repo")}
+open ~/tmp/repolist.txt | lines | each {|repo| print $"local-ch/${repo}"}
+open ~/tmp/repolist.txt | lines | each {|repo| print $"local-ch/{$repo}"}
+open ~/tmp/repolist.txt | lines | each {|repo| print $"local-ch/($repo)"}
+open ~/tmp/repolist.txt | lines | each {|repo| gh api \}
+open ~/tmp/repolist.txt | lines | each {|repo| gh api --method PUT -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /orgs/local-ch/teams/products-engineering/repos/local-ch/$repo -f permission='admin'}
+open ~/tmp/repolist.txt | lines | each {|repo| gh api --method PUT -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" $"/orgs/local-ch/teams/products-engineering/repos/local-ch/($repo)" -f permission='admin'}
+openssl rand -base64 2000 | tr -dc 'A-Z' | fold -w 128 | head -n 1
+v .env
+docker compose up -d
+ssh 192.168.1.174
+ssh 192.168.1.174
+paru -Ss chezmoi
+paru -S chezmoi
+chezmoi --help
+tldr chezmoi
+chezmoi init
+chezmoi add .config/
+cd .config
+la
+chezmoi 
+chezmoi manage
+chezmoi managed
+tldr --update
+tealdear
+paru -Ss tealdear
+paru -Ss tealdeer
+tldr chezmoi
+cd
+chezmoi add .config/awesome
+.config/
+la
+g st
+la

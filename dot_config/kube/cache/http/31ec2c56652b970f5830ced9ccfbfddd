@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 134
+Access-Control-Allow-Origin: *
+Audit-Id: 8e8df5f1-218c-4bad-b3a7-10a28952be3b
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 21 Jun 2021 15:30:24 GMT
+
+{"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"10.32.255.18:443"}]}

@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 289
+Audit-Id: 4aee569b-15a5-4742-976e-4c8d94ba2950
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 25 Jun 2021 15:56:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"coordination.k8s.io/v1","resources":[{"name":"leases","singularName":"","namespaced":true,"kind":"Lease","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"storageVersionHash":"/sY7hl8ol1U="}]}

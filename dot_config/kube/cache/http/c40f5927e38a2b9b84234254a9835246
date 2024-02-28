@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 561
+Audit-Id: c64ace7d-ab8d-496e-976b-d81eaeda1ff5
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 21 Feb 2024 14:07:23 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"replication.database.arangodb.com/v2alpha1","resources":[{"name":"arangodeploymentreplications","singularName":"arangodeploymentreplication","namespaced":true,"kind":"ArangoDeploymentReplication","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangorepl"],"storageVersionHash":"R0HKdv4tKQo="},{"name":"arangodeploymentreplications/status","singularName":"","namespaced":true,"kind":"ArangoDeploymentReplication","verbs":["get","patch","update"]}]}

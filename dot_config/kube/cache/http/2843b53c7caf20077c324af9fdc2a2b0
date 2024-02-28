@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 362
+Access-Control-Allow-Origin: *
+Audit-Id: 5b585be5-651f-4ec5-82cc-82941e83e3a1
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Mon, 21 Jun 2021 15:30:24 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"internal.autoscaling.k8s.io/v1alpha1","resources":[{"name":"capacityrequests","singularName":"capacityrequest","namespaced":true,"kind":"CapacityRequest","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["capreq"],"storageVersionHash":"nC5ppdn3C4E="}]}

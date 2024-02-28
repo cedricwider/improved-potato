@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 399
+Audit-Id: 770dd9b9-f7e4-4398-a48c-ec391277096c
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 21 Feb 2024 14:08:13 GMT
+X-Kubernetes-Pf-Flowschema-Uid: c2e900a2-0a80-4b40-9bd0-a2c3391e7ca0
+X-Kubernetes-Pf-Prioritylevel-Uid: e50bee9d-34aa-46cf-8176-eb290fd81f35
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"warden.gke.io/v1","resources":[{"name":"audits","singularName":"audit","namespaced":false,"kind":"Audit","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"2PrcdkLKmvM="},{"name":"audits/status","singularName":"","namespaced":false,"kind":"Audit","verbs":["get","patch","update"]}]}

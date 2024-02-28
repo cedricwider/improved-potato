@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 341
+Audit-Id: 77e0ba01-718d-495c-8616-7e425658dc96
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 09 Feb 2024 13:35:00 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 276922cc-8b08-49c9-9333-454d35bdf219
+X-Kubernetes-Pf-Prioritylevel-Uid: 2970fcff-4716-4e0e-9765-9e05f625fbb8
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"nodemanagement.gke.io/v1alpha1","resources":[{"name":"updateinfos","singularName":"updateinfo","namespaced":true,"kind":"UpdateInfo","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["updinf"],"storageVersionHash":"QtwKBHoi/B8="}]}

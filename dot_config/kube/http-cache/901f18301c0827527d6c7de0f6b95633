@@ -1,0 +1,17 @@
+HTTP/2.0 200 OK
+Content-Length: 277
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 12 Jan 2021 09:49:17 GMT
+
+{
+  "major": "1",
+  "minor": "17+",
+  "gitVersion": "v1.17.13-gke.2600",
+  "gitCommit": "fc4bf3b03703b51c48ba123e8abc53b3051ba8a7",
+  "gitTreeState": "clean",
+  "buildDate": "2020-11-11T09:20:10Z",
+  "goVersion": "go1.13.15b4",
+  "compiler": "gc",
+  "platform": "linux/amd64"
+}

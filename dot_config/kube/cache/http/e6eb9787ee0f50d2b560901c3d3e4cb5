@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 362
+Audit-Id: 96f901a8-a54f-4032-b63b-e8e7127ef83b
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Nov 2021 15:44:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 780cb9f5-9726-4a32-8ea7-73b01c23943d
+X-Kubernetes-Pf-Prioritylevel-Uid: 38ad9431-c2da-49c2-af97-503addc07a3c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"internal.autoscaling.k8s.io/v1alpha1","resources":[{"name":"capacityrequests","singularName":"capacityrequest","namespaced":true,"kind":"CapacityRequest","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["capreq"],"storageVersionHash":"nC5ppdn3C4E="}]}

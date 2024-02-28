@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 1580
+Audit-Id: 9d4f2fbe-89ca-47bf-96bf-c7f360de2913
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 09 Feb 2024 13:35:00 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 276922cc-8b08-49c9-9333-454d35bdf219
+X-Kubernetes-Pf-Prioritylevel-Uid: 2970fcff-4716-4e0e-9765-9e05f625fbb8
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"actions.github.com/v1alpha1","resources":[{"name":"autoscalinglisteners","singularName":"autoscalinglistener","namespaced":true,"kind":"AutoscalingListener","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"gFP+pA9bgJ8="},{"name":"autoscalinglisteners/status","singularName":"","namespaced":true,"kind":"AutoscalingListener","verbs":["get","patch","update"]},{"name":"autoscalingrunnersets","singularName":"autoscalingrunnerset","namespaced":true,"kind":"AutoscalingRunnerSet","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"ejGPRkgxAZo="},{"name":"autoscalingrunnersets/status","singularName":"","namespaced":true,"kind":"AutoscalingRunnerSet","verbs":["get","patch","update"]},{"name":"ephemeralrunners","singularName":"ephemeralrunner","namespaced":true,"kind":"EphemeralRunner","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"xTB0fDyPgd4="},{"name":"ephemeralrunners/status","singularName":"","namespaced":true,"kind":"EphemeralRunner","verbs":["get","patch","update"]},{"name":"ephemeralrunnersets","singularName":"ephemeralrunnerset","namespaced":true,"kind":"EphemeralRunnerSet","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"jE+9hUn7mEM="},{"name":"ephemeralrunnersets/status","singularName":"","namespaced":true,"kind":"EphemeralRunnerSet","verbs":["get","patch","update"]}]}

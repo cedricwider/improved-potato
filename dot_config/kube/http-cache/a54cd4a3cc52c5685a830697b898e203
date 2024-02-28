@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 327
+Access-Control-Allow-Origin: http://localhost:33691
+Audit-Id: 71b8f05d-095b-4aa8-88bf-5daa92d3dd5f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 18 Nov 2020 15:03:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"scalingpolicy.kope.io/v1alpha1","resources":[{"name":"scalingpolicies","singularName":"scalingpolicy","namespaced":true,"kind":"ScalingPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"eoKnP5vFhFU="}]}

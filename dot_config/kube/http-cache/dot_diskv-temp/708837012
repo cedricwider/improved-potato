@@ -1,0 +1,7 @@
+HTTP/2.0 200 OK
+Content-Length: 341
+Audit-Id: 424f9004-d978-4bcf-8d27-9fb9691a8779
+Content-Type: application/json
+Date: Wed, 03 Jun 2020 11:41:24 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"nodemanagement.gke.io/v1alpha1","resources":[{"name":"updateinfos","singularName":"updateinfo","namespaced":true,"kind":"UpdateInfo","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["updinf"],"storageVersionHash":"QtwKBHoi/B8="}]}

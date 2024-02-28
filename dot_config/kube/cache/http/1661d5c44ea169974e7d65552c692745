@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 1325
+Audit-Id: ce37f85a-9d9b-4cd1-bab3-995717ca913f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 21 Feb 2024 14:07:23 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"database.arangodb.com/v2alpha1","resources":[{"name":"arangoclustersynchronizations","singularName":"arangoclustersynchronization","namespaced":true,"kind":"ArangoClusterSynchronization","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangoclustersync"],"storageVersionHash":"OvzjqU69Lak="},{"name":"arangoclustersynchronizations/status","singularName":"","namespaced":true,"kind":"ArangoClusterSynchronization","verbs":["get","patch","update"]},{"name":"arangodeployments","singularName":"arangodeployment","namespaced":true,"kind":"ArangoDeployment","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangodb","arango"],"storageVersionHash":"0BHa0j24GqE="},{"name":"arangodeployments/status","singularName":"","namespaced":true,"kind":"ArangoDeployment","verbs":["get","patch","update"]},{"name":"arangomembers","singularName":"arangomember","namespaced":true,"kind":"ArangoMember","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangomembers"],"storageVersionHash":"n4P0XOnjrXo="},{"name":"arangomembers/status","singularName":"","namespaced":true,"kind":"ArangoMember","verbs":["get","patch","update"]}]}

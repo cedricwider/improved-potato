@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 134
+Access-Control-Allow-Origin: http://localhost:33691
+Audit-Id: cbf40e00-9d91-4dd8-a7fd-cc4659248bf0
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 18 Nov 2020 15:03:14 GMT
+
+{"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"10.32.255.18:443"}]}

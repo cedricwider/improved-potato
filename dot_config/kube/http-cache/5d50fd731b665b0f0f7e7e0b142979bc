@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 335
+Audit-Id: 69f0ba47-a1ce-4dc3-85cc-2f5418de7bed
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:54 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"cloud.google.com/v1","resources":[{"name":"backendconfigs","singularName":"backendconfig","namespaced":true,"kind":"BackendConfig","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["bc"],"storageVersionHash":"iT6Z2sUMGkM="}]}

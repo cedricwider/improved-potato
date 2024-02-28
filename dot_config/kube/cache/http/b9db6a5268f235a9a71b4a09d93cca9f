@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 886
+Audit-Id: a99f5316-b581-4fd5-a71b-5f843cd42aa9
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Nov 2021 15:44:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 780cb9f5-9726-4a32-8ea7-73b01c23943d
+X-Kubernetes-Pf-Prioritylevel-Uid: 38ad9431-c2da-49c2-af97-503addc07a3c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"backup.arangodb.com/v1","resources":[{"name":"arangobackups","singularName":"arangobackup","namespaced":true,"kind":"ArangoBackup","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangobackup"],"storageVersionHash":"7nWFmZQ2EuE="},{"name":"arangobackups/status","singularName":"","namespaced":true,"kind":"ArangoBackup","verbs":["get","patch","update"]},{"name":"arangobackuppolicies","singularName":"arangobackuppolicy","namespaced":true,"kind":"ArangoBackupPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangobackuppolicy","arangobp"],"storageVersionHash":"WcDrWfKDooo="},{"name":"arangobackuppolicies/status","singularName":"","namespaced":true,"kind":"ArangoBackupPolicy","verbs":["get","patch","update"]}]}

@@ -1,0 +1,11 @@
+´Oâ†<ÌïPÁfÛ
+!Þ@aÜŠù’l‘s12ZÖHTTP/2.0 200 OK
+Content-Length: 407
+Audit-Id: e4384009-ab96-4453-8f63-b513edaa2515
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 15 Nov 2022 15:45:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","groupVersion":"extensions/v1beta1","resources":[{"name":"ingresses","singularName":"","namespaced":true,"kind":"Ingress","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["ing"],"storageVersionHash":"39NQlfNR+bo="},{"name":"ingresses/status","singularName":"","namespaced":true,"kind":"Ingress","verbs":["get","patch","update"]}]}

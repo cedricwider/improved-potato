@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 499
+Audit-Id: d527aa59-fc48-4dff-8b35-51a996bad45f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:52:47 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"elasticsearch.k8s.elastic.co/v1","resources":[{"name":"elasticsearches","singularName":"elasticsearch","namespaced":true,"kind":"Elasticsearch","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["es"],"categories":["elastic"],"storageVersionHash":"pmO5FGS2dB4="},{"name":"elasticsearches/status","singularName":"","namespaced":true,"kind":"Elasticsearch","verbs":["get","patch","update"]}]}

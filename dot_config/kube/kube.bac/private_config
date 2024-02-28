@@ -1,0 +1,27 @@
+apiVersion: v1
+clusters: null
+contexts:
+- context:
+    cluster: ""
+    namespace: web
+    user: ""
+  name: local-ch-prd-web
+- context:
+    cluster: ""
+    namespace: web
+    user: ""
+  name: local-ch-shared-web
+- context:
+    cluster: ""
+    namespace: web-dev
+    user: ""
+  name: local-ch-stg-web-dev
+- context:
+    cluster: ""
+    namespace: web-stg
+    user: ""
+  name: local-ch-stg-web-stg
+current-context: local-ch-stg-web-dev
+kind: Config
+preferences: {}
+users: null

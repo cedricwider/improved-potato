@@ -1,0 +1,42 @@
+Streamline awesome configuration
+
+- No more hardcoded commands
+- Dracula themeing
+- Use dmenu instead of rofi
+- Display panel at the bottom of the screen
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sun Dec 18 19:40:35 2022 +0100
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   configuration/apps.lua
+#	modified:   configuration/awspawn
+#	deleted:    configuration/compton.conf
+#	modified:   configuration/keys/global.lua
+#	modified:   configuration/picom.conf
+#	modified:   configuration/rofi.rasi
+#	new file:   configuration/rofi.rasi.orig
+#	modified:   configuration/tags/init.lua
+#	modified:   layout/init.lua
+#	new file:   layout/panel.lua
+#	deleted:    layout/top-panel.lua
+#	modified:   module/auto-start.lua
+#	modified:   module/notifications.lua
+#	modified:   module/quake-terminal.lua
+#	modified:   rc.lua
+#	modified:   theme/default-theme.lua
+#	new file:   theme/dracula.lua
+#	new file:   theme/icons/api.svg
+#	new file:   theme/icons/at.svg
+#	modified:   theme/icons/init.lua
+#	new file:   theme/icons/slack.svg
+#	new file:   theme/icons/word.svg
+#	modified:   theme/init.lua
+#	modified:   theme/titus-theme/init.lua
+#

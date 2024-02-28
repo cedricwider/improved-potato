@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 327
+Audit-Id: 6d8cb666-1f70-447b-a808-3a0425ce6b14
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Nov 2021 15:44:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 780cb9f5-9726-4a32-8ea7-73b01c23943d
+X-Kubernetes-Pf-Prioritylevel-Uid: 38ad9431-c2da-49c2-af97-503addc07a3c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"scalingpolicy.kope.io/v1alpha1","resources":[{"name":"scalingpolicies","singularName":"scalingpolicy","namespaced":true,"kind":"ScalingPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"eoKnP5vFhFU="}]}

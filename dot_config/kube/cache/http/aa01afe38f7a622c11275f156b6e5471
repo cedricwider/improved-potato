@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 734
+Audit-Id: 6437a5e7-16b8-48db-8b6c-064ed6b9c6be
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Nov 2021 15:44:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 780cb9f5-9726-4a32-8ea7-73b01c23943d
+X-Kubernetes-Pf-Prioritylevel-Uid: 38ad9431-c2da-49c2-af97-503addc07a3c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"database.arangodb.com/v1","resources":[{"name":"arangomembers","singularName":"arangomember","namespaced":true,"kind":"ArangoMember","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangomembers"],"storageVersionHash":"n4P0XOnjrXo="},{"name":"arangomembers/status","singularName":"","namespaced":true,"kind":"ArangoMember","verbs":["get","patch","update"]},{"name":"arangodeployments","singularName":"arangodeployment","namespaced":true,"kind":"ArangoDeployment","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangodb","arango"],"storageVersionHash":"0BHa0j24GqE="}]}

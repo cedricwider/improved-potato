@@ -1,0 +1,80 @@
+# [Created by task 2.5.1 4/28/2019 09:07:47]
+# Taskwarrior program configuration file.
+# For more documentation, see http://taskwarrior.org or try 'man task', 'man task-color',
+# 'man task-sync' or 'man taskrc'
+
+# Here is an example of entries that use the default, override and blank values
+#   variable=foo   -- By specifying a value, this overrides the default
+#   variable=      -- By specifying no value, this means no default
+#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
+
+# Use the command 'task show' to see all defaults and overrides
+
+# Files
+data.location=~/.task
+
+# Color theme (uncomment one to use)
+#include /usr/share/doc/task/rc/light-16.theme
+#include /usr/share/doc/task/rc/light-256.theme
+#include /usr/share/doc/task/rc/dark-16.theme
+#include /usr/share/doc/task/rc/dark-256.theme
+#include /usr/share/doc/task/rc/dark-red-256.theme
+#include /usr/share/doc/task/rc/dark-green-256.theme
+#include /usr/share/doc/task/rc/dark-blue-256.theme
+#include /usr/share/doc/task/rc/dark-violets-256.theme
+#include /usr/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/share/doc/task/rc/dark-gray-256.theme
+include /usr/share/doc/task/rc/dark-gray-blue-256.theme
+#include /usr/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/share/doc/task/rc/solarized-light-256.theme
+#include /usr/share/doc/task/rc/no-color.theme
+
+uda.estimate.type=numeric
+uda.estimate.label=Est
+uda.notes.type=string
+uda.notes.label=Notes
+urgency.user.project.onboarding.coefficient=2.5
+urgency.user.tag.sprint.coefficient=4.5
+urgency.user.tag.blocked.coefficient=-2.5
+urgency.user.tag.maybe.coefficient=-4
+urgency.uda.estimate.coefficient=2.0
+urgency.uda.priority.L.coefficient=-1.0
+
+# FreecCinc Configuration
+# taskd.certificate=\/home\/cedricwider\/.task\/freecinc_ecbe1a16.cert.pem
+# taskd.key=\/home\/cedricwider\/.task\/freecinc_ecbe1a16.key.pem
+# taskd.ca=\/home\/cedricwider\/.task\/freecinc_ecbe1a16.ca.pem
+# taskd.server=freecinc.com:53589
+# taskd.credentials=FreeCinc\/freecinc_ecbe1a16\/8624544a-a9d9-437f-b87c-ff5f8dcd56d4
+# taskd.trust=ignore hostname
+
+# matrix.ced.zone Configuration
+taskd.server=matrix.ced.zone:53589
+taskd.credentials=1337 Inc./ced/61f1d08f-9db3-4876-8da0-1facba45f88a
+taskd.certificate=~/.config/taskwarrior/certificates/ced.cert.pem
+taskd.key=~/.config/taskwarrior/certificates/ced.key.pem
+taskd.ca=~/.config/taskwarrior/certificates/ca.cert.pem
+
+# Trellowarrior configuration
+uda.trelloid.type=string
+uda.trelloid.label=Trello ID
+uda.trellolistname.type=string
+uda.trellolistname.label=Trello List Name
+
+
+context.work.read=+work
+context.work.write=+work
+context=work
+context.private.read=+private
+context.private.write=+private
+regex=on
+uda.priority.values=H,M,,L
+uda.reviewed.type=date
+uda.reviewed.label=Reviewed
+report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
+report._reviewed.columns=uuid
+report._reviewed.sort=reviewed+,modified+
+report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
+
+#report.next.filter=status:pending -WAITING -maybe limit:page
+

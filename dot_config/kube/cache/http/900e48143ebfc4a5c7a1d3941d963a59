@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 460
+Audit-Id: 4dbc0d2e-22f7-4d7f-9491-83748fcd1591
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:52:47 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"kibana.k8s.elastic.co/v1beta1","resources":[{"name":"kibanas","singularName":"kibana","namespaced":true,"kind":"Kibana","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["kb"],"categories":["elastic"],"storageVersionHash":"YjmZ9E/29YU="},{"name":"kibanas/status","singularName":"","namespaced":true,"kind":"Kibana","verbs":["get","patch","update"]}]}

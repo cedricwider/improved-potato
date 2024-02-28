@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 133
+Audit-Id: 8de97e42-dc3a-4302-8ab5-d695eb52f78d
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:21 GMT
+
+{"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"10.32.255.2:443"}]}

@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 455
+Audit-Id: 0bb0362a-1de8-449c-84f9-461e27507fd8
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:54 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"kibana.k8s.elastic.co/v1","resources":[{"name":"kibanas","singularName":"kibana","namespaced":true,"kind":"Kibana","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["kb"],"categories":["elastic"],"storageVersionHash":"YjmZ9E/29YU="},{"name":"kibanas/status","singularName":"","namespaced":true,"kind":"Kibana","verbs":["get","patch","update"]}]}

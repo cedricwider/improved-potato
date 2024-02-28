@@ -1,0 +1,10 @@
+3|Û=Â‹¿ßç~ÿV∆låmˆÿ„⁄{Ù+≤≤HTTP/2.0 200 OK
+Content-Length: 133
+Audit-Id: a2f29ecd-4814-4754-a4dd-64cd3b702ce9
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Fri, 09 Feb 2024 13:41:07 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIVersions","versions":["v1"],"serverAddressByClientCIDRs":[{"clientCIDR":"0.0.0.0/0","serverAddress":"10.32.255.2:443"}]}

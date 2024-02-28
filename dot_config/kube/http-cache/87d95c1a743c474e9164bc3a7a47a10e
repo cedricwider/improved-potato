@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 891
+Access-Control-Allow-Origin: http://localhost:33691
+Audit-Id: e788d022-ef49-4f97-9e3d-9f3425018aed
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 18 Nov 2020 15:03:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"backup.arangodb.com/v1alpha","resources":[{"name":"arangobackups","singularName":"arangobackup","namespaced":true,"kind":"ArangoBackup","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangobackup"],"storageVersionHash":"7nWFmZQ2EuE="},{"name":"arangobackups/status","singularName":"","namespaced":true,"kind":"ArangoBackup","verbs":["get","patch","update"]},{"name":"arangobackuppolicies","singularName":"arangobackuppolicy","namespaced":true,"kind":"ArangoBackupPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangobackuppolicy","arangobp"],"storageVersionHash":"WcDrWfKDooo="},{"name":"arangobackuppolicies/status","singularName":"","namespaced":true,"kind":"ArangoBackupPolicy","verbs":["get","patch","update"]}]}

@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 458
+Audit-Id: 8d3bbf72-68f2-42f9-96c2-07a228934a68
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:52:47 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"agent.k8s.elastic.co/v1alpha1","resources":[{"name":"agents","singularName":"agent","namespaced":true,"kind":"Agent","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["agent"],"categories":["elastic"],"storageVersionHash":"tbBvVRiwbpE="},{"name":"agents/status","singularName":"","namespaced":true,"kind":"Agent","verbs":["get","patch","update"]}]}

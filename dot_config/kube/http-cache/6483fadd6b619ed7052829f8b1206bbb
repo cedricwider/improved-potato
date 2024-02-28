@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 327
+Audit-Id: 558e9b1e-17ea-4a53-9fbd-cdc11b3dca43
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:21 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"scalingpolicy.kope.io/v1alpha1","resources":[{"name":"scalingpolicies","singularName":"scalingpolicy","namespaced":true,"kind":"ScalingPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"eoKnP5vFhFU="}]}

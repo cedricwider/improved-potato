@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 432
+Audit-Id: 981b874f-7df4-4563-9022-231e60d7a6d8
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 21 Feb 2024 14:08:13 GMT
+X-Kubernetes-Pf-Flowschema-Uid: c2e900a2-0a80-4b40-9bd0-a2c3391e7ca0
+X-Kubernetes-Pf-Prioritylevel-Uid: e50bee9d-34aa-46cf-8176-eb290fd81f35
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"monitoring.gke.io/v1alpha1","resources":[{"name":"podmonitors","singularName":"podmonitor","namespaced":true,"kind":"PodMonitor","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"T/Qq8IFCCPA="},{"name":"podmonitors/status","singularName":"","namespaced":true,"kind":"PodMonitor","verbs":["get","patch","update"]}]}

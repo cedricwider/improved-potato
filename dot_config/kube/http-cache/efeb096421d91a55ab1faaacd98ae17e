@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 473
+Access-Control-Allow-Origin: http://localhost:33691
+Audit-Id: 02ebc4e4-b52b-4637-a287-6d8394c75aea
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 18 Nov 2020 15:03:15 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"apm.k8s.elastic.co/v1beta1","resources":[{"name":"apmservers","singularName":"apmserver","namespaced":true,"kind":"ApmServer","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["apm"],"categories":["elastic"],"storageVersionHash":"uekrp1G8+eM="},{"name":"apmservers/status","singularName":"","namespaced":true,"kind":"ApmServer","verbs":["get","patch","update"]}]}

@@ -1,0 +1,10 @@
+0#¿‘¹\~Ó5h Õ•ñöÒP¶	ˆÀdœ£dHTTP/2.0 200 OK
+Content-Length: 366
+Audit-Id: a138dfed-9a22-47fc-a1a9-b962f46da2a3
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 15 Nov 2022 15:45:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"containerthreatdetection.googleapis.com/v1","resources":[{"name":"containerwatcherstatuses","singularName":"containerwatcherstatus","namespaced":true,"kind":"ContainerWatcherStatus","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"cxjt3XZ4ksk="}]}

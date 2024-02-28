@@ -1,0 +1,90 @@
+#| --------------------------------------------------------------------------
+
+                         KMonad: ISO ThinkPad T430 Template
+
+   This file contains US and `defsrc' configurations for a ThinkPad T430
+   with an ISO keyboard.  Copy out the `defsrc' layer to start your own
+   keyboard configuration.  Copy out the `deflayer' template to easily start
+   a new layer with matching `transparent' buttons.
+
+(deflayer name
+  _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _                    _
+  _    _    _              _              _    _    _    _               _    _    _
+)
+
+  -------------------------------------------------------------------------- |#
+
+(defcfg
+  input (device-file "/dev/input/by-path/pci-0000:00:14.0-usb-0:1:1.0-event-kbd")
+  output (uinput-sink "[KM] Ducky One")
+  cmp-seq ralt    ;; Set the compose key to `RightAlt'
+  cmp-seq-delay 5 ;; 5ms delay between each compose-key sequence press
+  fallthrough true
+  allow-cmd true
+)
+
+(defsrc
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \     del  end  pgdn
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft                 up       
+  lctl lmet lalt           spc            ralt rmet cmp  rctl            left down rght
+)
+
+(defalias
+  ;; layer switching
+  lsqw (layer-switch qwerty)
+  lshl (layer-switch halmak)
+  ltsl (layer-toggle symbol)
+
+  ;; copy-and-paste special keys
+  udo C-z
+  rdo C-Z
+  cut C-x
+  cpy C-c
+  pst C-v
+
+  ;; one-shot modifiers
+  oss (sticky-key 500 lsft) ;; one-shot shift
+  osm (sticky-key 500 lmet) ;; one-shot meta
+  osa (sticky-key 500 lalt) ;; one-shot alt
+
+  ;; tap-and-hold modifiers
+  csc (tap-next-release esc lctl)
+  cnt (tap-next-release ret rctl)
+  spym (tap-next-release spc @ltsl)
+)
+
+
+
+(deflayer halmak
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup
+  tab  w    l    r    b    z    ;    q    u    d    j    [    ]    \     del  end  pgdn
+  @csc s    h    n    t    ,    .    a    e    o    i    '    ret
+  @oss f    m    v    c    /    g    p    x    k    y    rsft                 up       
+  lctl @osm @osa           @spym          @osa @osm cmp  rctl            left down rght
+)
+
+(deflayer qwerty
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \     del  end  pgdn
+  @csc a    s    d    f    g    h    j    k    l    ;    '    ret
+  @oss z    x    c    v    b    n    m    ,    .    /    rsft                 up       
+  lctl @osm @osa           @spym          @osa @osm cmp  rctl            left down rght
+)
+
+(deflayer symbol
+  _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _
+  _    _    _    {    }    _    _    _    _    _    _    _    _    _     _    _    _
+  _    _    _    \(   \)   _    h    j    k    l    esc  _    _
+  _    @udo @cut @cpy @pst _    _    _    _    _    @rdo _                    _
+  _    _    _              _              _    _    _    _              @lsqw _    @lshl
+)

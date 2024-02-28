@@ -1,0 +1,8 @@
+HTTP/2.0 200 OK
+Content-Length: 886
+Audit-Id: d59c4ad0-4dc4-4d23-bf9b-bead3a579370
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 24 Jun 2021 18:02:54 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"backup.arangodb.com/v1","resources":[{"name":"arangobackups","singularName":"arangobackup","namespaced":true,"kind":"ArangoBackup","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangobackup"],"storageVersionHash":"7nWFmZQ2EuE="},{"name":"arangobackups/status","singularName":"","namespaced":true,"kind":"ArangoBackup","verbs":["get","patch","update"]},{"name":"arangobackuppolicies","singularName":"arangobackuppolicy","namespaced":true,"kind":"ArangoBackupPolicy","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["arangobackuppolicy","arangobp"],"storageVersionHash":"WcDrWfKDooo="},{"name":"arangobackuppolicies/status","singularName":"","namespaced":true,"kind":"ArangoBackupPolicy","verbs":["get","patch","update"]}]}

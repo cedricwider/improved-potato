@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 450
+Audit-Id: 35e32fde-1779-4b3f-8a70-de29581d3fef
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:52:47 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"beat.k8s.elastic.co/v1beta1","resources":[{"name":"beats","singularName":"beat","namespaced":true,"kind":"Beat","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["beat"],"categories":["elastic"],"storageVersionHash":"BGv1+EKay+Q="},{"name":"beats/status","singularName":"","namespaced":true,"kind":"Beat","verbs":["get","patch","update"]}]}

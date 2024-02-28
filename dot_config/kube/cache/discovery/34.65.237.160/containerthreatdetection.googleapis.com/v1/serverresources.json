@@ -1,0 +1,1 @@
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"containerthreatdetection.googleapis.com/v1","resources":[{"name":"containerwatcherstatuses","singularName":"containerwatcherstatus","namespaced":true,"kind":"ContainerWatcherStatus","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"cxjt3XZ4ksk="}]}

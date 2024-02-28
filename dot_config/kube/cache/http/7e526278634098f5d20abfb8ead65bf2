@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 1629
+Audit-Id: 765b92f7-43a4-4860-8172-78a70581fb5d
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Nov 2021 15:44:58 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 780cb9f5-9726-4a32-8ea7-73b01c23943d
+X-Kubernetes-Pf-Prioritylevel-Uid: 38ad9431-c2da-49c2-af97-503addc07a3c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"cert-manager.io/v1","resources":[{"name":"issuers","singularName":"issuer","namespaced":true,"kind":"Issuer","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["cert-manager"],"storageVersionHash":"P8OOH0cQiDA="},{"name":"issuers/status","singularName":"","namespaced":true,"kind":"Issuer","verbs":["get","patch","update"]},{"name":"certificates","singularName":"certificate","namespaced":true,"kind":"Certificate","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["cert","certs"],"categories":["cert-manager"],"storageVersionHash":"QwYBQGuMyKo="},{"name":"certificates/status","singularName":"","namespaced":true,"kind":"Certificate","verbs":["get","patch","update"]},{"name":"certificaterequests","singularName":"certificaterequest","namespaced":true,"kind":"CertificateRequest","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["cr","crs"],"categories":["cert-manager"],"storageVersionHash":"tuxiikMaACg="},{"name":"certificaterequests/status","singularName":"","namespaced":true,"kind":"CertificateRequest","verbs":["get","patch","update"]},{"name":"clusterissuers","singularName":"clusterissuer","namespaced":false,"kind":"ClusterIssuer","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"categories":["cert-manager"],"storageVersionHash":"IJyJPITm/AY="},{"name":"clusterissuers/status","singularName":"","namespaced":false,"kind":"ClusterIssuer","verbs":["get","patch","update"]}]}

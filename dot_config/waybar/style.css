@@ -1,0 +1,215 @@
+@import "catppuccin.css";
+
+* {
+  color: @text;
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font Mono";
+  min-height: 20px;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#window {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0px 10px 10px 0px;
+  color: @lavender;
+  background: @base;
+}
+
+#workspaces {
+  transition: none;
+  color: @blue;
+  background: @base;
+}
+
+#workspaces button {
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: none;
+  color: @yellow;
+  background: transparent;
+  font-size: 18px;
+}
+
+#workspaces button:hover {
+  transition: none;
+  box-shadow: inherit;
+  text-shadow: inherit;
+  border-radius: inherit;
+  color: @peach;
+}
+
+#workspaces button.active {
+  color: @blue;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+#workspaces button.visible {
+  color: @yellow;
+}
+
+#language {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0px 10px 10px 0px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#keyboard-state {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0px 10px 10px 0px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#custom-pacman {
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#custom-mail {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0px 10px 10px 0px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#mode {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#clock {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px 0px 0px 10px;
+  transition: none;
+  color: @yellow;
+  background: @base;
+}
+
+#custom-weather {
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: none;
+  color: @sky;
+  background: @base;
+}
+
+#pulseaudio {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px 0px 0px 10px;
+  transition: none;
+  color: @blue;
+  background: @base;
+}
+
+#network {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: @sapphire;
+  background: @base;
+}
+
+#pulseaudio.muted {
+  background-color: @maroon;
+  color: @base;
+}
+
+#custom-mem {
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#temperature {
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+  transition: none;
+  color: @text;
+  background: @base;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#backlight {
+  transition: none;
+  color: @lavender;
+  background: @base;
+}
+
+#battery {
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: none;
+  color: @mauve;
+  background: @base;
+}
+
+#battery.charging {
+  color: @base;
+  background-color: @green;
+}
+
+#battery.warning:not(.charging) {
+  background-color: @yellow;
+  color: @base;
+}
+
+#battery.critical:not(.charging) {
+  background-color: @red;
+  color: @base;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#tray {
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: none;
+  color: @rosewater;
+  background: @base;
+}
+
+@keyframes blink {
+  to {
+    background-color: @text;
+    color: #000000;
+  }
+}

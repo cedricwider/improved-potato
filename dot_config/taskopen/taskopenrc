@@ -1,0 +1,13 @@
+[General]
+EDITOR = nvim
+path_ext = /usr/share/taskopen/scripts
+taskbin = task
+no_annotation_hook = addnote
+task_attributes = priority project tags description
+
+[Actions]
+notes.regex = "Notes"
+notes.command = "touch $HOME/tasknotes/$UUID.wiki ; $EDITOR $HOME/tasknotes/$UUID.wiki"
+
+general.regex = ".*"
+general.command = "xdg-open $ANNOTATION"

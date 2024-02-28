@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 672
+Audit-Id: 298f1665-150b-4867-945a-8fad61360d56
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 01 Dec 2021 13:52:47 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"maps.k8s.elastic.co/v1alpha1","resources":[{"name":"elasticmapsservers","singularName":"elasticmapsserver","namespaced":true,"kind":"ElasticMapsServer","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"shortNames":["ems"],"categories":["elastic"],"storageVersionHash":"xV5ZCj0BLNQ="},{"name":"elasticmapsservers/status","singularName":"","namespaced":true,"kind":"ElasticMapsServer","verbs":["get","patch","update"]},{"name":"elasticmapsservers/scale","singularName":"","namespaced":true,"group":"autoscaling","version":"v1","kind":"Scale","verbs":["get","patch","update"]}]}

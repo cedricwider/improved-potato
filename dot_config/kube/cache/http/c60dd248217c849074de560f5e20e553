@@ -1,0 +1,19 @@
+HTTP/2.0 200 OK
+Content-Length: 275
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Thu, 15 Sep 2022 16:24:59 GMT
+X-Kubernetes-Pf-Flowschema-Uid: f9b44128-327e-4200-8865-6510647fc616
+X-Kubernetes-Pf-Prioritylevel-Uid: 26f4d62f-b9d3-4700-b15d-80aa73b84917
+
+{
+  "major": "1",
+  "minor": "21",
+  "gitVersion": "v1.21.13-gke.900",
+  "gitCommit": "8f8dd9d389916c66dd26704a96f1ab4c5776f9df",
+  "gitTreeState": "clean",
+  "buildDate": "2022-06-06T09:24:36Z",
+  "goVersion": "go1.16.15b7",
+  "compiler": "gc",
+  "platform": "linux/amd64"
+}
