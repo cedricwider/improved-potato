@@ -46,7 +46,7 @@ startup_window: code
 
 windows:
   - code: nvim
-  - shell: task
+  - shell: neofetch
   - servers:
       layout: even-horizontal
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
